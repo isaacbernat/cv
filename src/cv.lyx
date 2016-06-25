@@ -1,0 +1,2230 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass moderncv
+\begin_preamble
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+
+\moderncvtheme[blue]{classic}
+% possible themes are "classic" and "casual"
+% optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+
+% required
+\firstname{Isaac}
+% required
+\familyname{Bernat}
+
+% optional, remove the line if not wanted
+\title{Full-stack engineer}
+
+% optional
+% \address{street and number}{postcode city}
+% '\\' adds a line break
+\address{-------- -------- ----}{08340 Vilassar de Mar\protect\\[0.1em] Barcelona, Spain\protect\\[0.2em]}
+
+% optional
+\phone{+34 ---- ------ ---- ----}
+% optional
+\mobile{+34 ---- ------ ---- ----}
+% optional
+%\fax{+43(0)999 7777}
+% optional
+\social[linkedin][www.linkedin.com/in/isaacbernat]{isaacbernat}
+\social[github][github.com/isaacbernat]{isaacbernat}
+\social[stackoverflow][stackoverflow.com/users/2030167/isaacbernat]{isaacbernat}
+\email{isaac.bernat@gmail.com}
+% optional
+\extrainfo{%
+  {Birthdate: 14/01/1988}}
+
+%\extrainfo{%
+%  \httplink[stackoverflow]{http://stackoverflow.com/users/2030167/isaacbernat}\\%
+%  {Birthdate: 14/01/1988}\\%
+%  {Nationality: Spanish}}
+
+% optional
+% \photo[height]{name}
+% 'height' is the height the picture is resized to
+% 'name' is the name of the picture file
+\photo[64pt]{portrait.png}
+
+% optional
+%\quote{"You only live twice." (an optional quote)}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "avant" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family sfdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 11
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 0
+\tocdepth -1
+\paragraph_separation skip
+\defskip medskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Note:
+\series default
+ The personal data like your name, image, address, etc.
+ are set in the document preamble.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+The moderncv class offers lots of customization possibilities; some are
+ explained in the preamble of this document; for more information look at
+ the documentation of the \SpecialChar LaTeX
+-package 
+\series bold
+moderncv
+\series default
+.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle
+\end_layout
+
+\end_inset
+
+
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+outputs the title part like the address
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace -1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Education
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Dec.
+ 2011
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "M.Sc. Thesis in Informatics"
+target "http://www.ntnu.edu/studies/mit"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+NTNU
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Trondheim
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Norway
+\end_layout
+
+\end_inset
+
+
+\emph on
+Publication
+\emph default
+: 
+\begin_inset CommandInset href
+LatexCommand href
+name "Test-Driven Conceptual Modelling: evaluation through a case study"
+target "http://ntnu.diva-portal.org/smash/record.jsf?pid=diva2:536441"
+
+\end_inset
+
+.
+\emph on
+
+\begin_inset Newline newline
+\end_inset
+
+Supervisors
+\emph default
+: 
+\begin_inset CommandInset href
+LatexCommand href
+name "John Krogstie"
+target "http://www.idi.ntnu.no/~krogstie/"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Albert Tort"
+target "http://www.essi.upc.edu/~atort/"
+
+\end_inset
+
+ and 
+\begin_inset CommandInset href
+LatexCommand href
+name "Antoni Olivé"
+target "http://www.essi.upc.edu/~olive/"
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Grade
+\emph default
+: 
+\begin_inset CommandInset href
+LatexCommand href
+name "A with Highest Honours"
+target "http://www.fib.upc.edu/fib/noticies.html?id=42dccc0a-d955-4bea-9c8e-94b89a95233e"
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2006 – 2011
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Degree in Informatics Engineering"
+target "http://www.fib.upc.edu/en/estudiar-enginyeria-informatica/enginyeries-pla-2003/EI.html"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+UPC-Barcelona Tech
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barcelona
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Spain
+\end_layout
+
+\end_inset
+
+
+\emph on
+Specialisation area
+\emph default
+: 
+\begin_inset CommandInset href
+LatexCommand href
+name "Data management and operations"
+target "http://www.fib.upc.edu/fib/estudiar-enginyeria-informatica/enginyeries-pla-2003/EI/GEdI.html"
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+Specialisation area
+\emph default
+: 
+\begin_inset CommandInset href
+LatexCommand href
+name "Software engineering and information systems"
+target "http://www.fib.upc.edu/fib/estudiar-enginyeria-informatica/enginyeries-pla-2003/EI/ESiSI.html"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+Languages
+\end_layout
+
+\begin_layout ItemWithComment
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Catalan
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Native
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "\"Preparació per al nivell C2 (Superior) de valencià\""
+target "http://upvx.upv.es/credenciales/17LlKkJj8450.pdf"
+
+\end_inset
+
+ by 
+\begin_inset CommandInset href
+LatexCommand href
+name "UPV"
+target "https://www.upv.es/index-en.html"
+
+\end_inset
+
+ - 2014
+\end_layout
+
+\begin_layout ItemWithComment
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Spanish
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Native
+\end_layout
+
+\end_inset
+
+"42 Concurso Nacional de Redacción" 4th prize (Barcelona) - 2002
+\end_layout
+
+\begin_layout ItemWithComment
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+English
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+C2
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "\"Cambridge's Certificate of Proficiency in English\" "
+target "http://www.cambridgeenglish.org/exams-and-qualifications/proficiency/"
+
+\end_inset
+
+- 2007
+\end_layout
+
+\begin_layout ItemWithComment
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Swedish
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+A2
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "\"Svenska 1 med Settle Into Stockholm\""
+target "http://www.settleintostockholm.com/"
+
+\end_inset
+
+ -
+\begin_inset space ~
+\end_inset
+
+2016
+\end_layout
+
+\begin_layout ItemWithComment
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Norwegian
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+A2
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "\"EILC Norwegian language course\""
+target "http://www.ntnu.edu/studies/international/norwegianlanguagecourses/summer"
+
+\end_inset
+
+ -
+\begin_inset space ~
+\end_inset
+
+2011
+\end_layout
+
+\begin_layout Section
+Experience
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Sep.
+ 2014 -
+\begin_inset Newline newline
+\end_inset
+
+Current
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Full-stack engineer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Wrapp.com"
+target "https://www.wrapp.com"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Stockholm
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Sweden
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+
+\emph on
+Opsweb
+\emph default
+: in-house web-based deploy system built with Dart, Sass and Jade.
+\end_layout
+
+\begin_layout ListItem
+
+\emph on
+Wrappmin
+\emph default
+: merchant tool (transaction mapping, offer creation) in ReactJS.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Dec.
+ 2013 -
+\begin_inset Newline newline
+\end_inset
+
+Sep.
+ 2014
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Data engineer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Wrapp.com"
+target "https://www.wrapp.com"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Stockholm
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Sweden
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+
+\emph on
+Data Warehouse
+\emph default
+: design and optimise ETL pipeline for redshift DW.
+\end_layout
+
+\begin_layout ListItem
+
+\emph on
+Wrapport
+\emph default
+: develop features and deliver reports with in-house built CRM.
+\end_layout
+
+\begin_layout ListItem
+
+\emph on
+Dashboards
+\emph default
+: built real-time dashboard with business and system KPIs.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Mar.
+ 2013 -
+\begin_inset Newline newline
+\end_inset
+
+Dec.
+ 2013
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Lead web engineer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Wrapp.com"
+target "https://www.wrapp.com"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Stockholm
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Sweden
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+
+\series bold
+\emph on
+E-mail service
+\series default
+\emph default
+: Build framework to design pre-flighted supporting:
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+A/B test
+\emph default
+: subjects, preheader-text, images, etc.
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Tracking
+\emph default
+: open rate, click through rate on each element, segmentation...
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Conditional rendering
+\emph default
+: custom module system, non-active users, etc.
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Compatibility
+\emph default
+: >1M e-mails sent weekly to diverse e-mail clients and devices.
+\end_layout
+
+\begin_layout ListItem
+
+\series bold
+\emph on
+Web client
+\series default
+\emph default
+: Landing pages + Wrapp 1.0 web app 
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Third party integration
+\emph default
+: facebook, heroku, mixpanel, Wrapp API, etc.
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Implemented
+\emph default
+: gifting flow, mobile views, log in A/B test, etc.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Oct.
+ 2012 -
+\begin_inset Newline newline
+\end_inset
+
+Mar.
+ 2013
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Back-end engineer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Wrapp.com"
+target "https://www.wrapp.com"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Stockholm
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Sweden
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+
+\emph on
+News service
+\emph default
+: Create a storage-agnostic API for all newsfeed-related functions.
+ Implement in-memory (testing) and MySQL (production) backends.
+\end_layout
+
+\begin_layout ListItem
+
+\emph on
+Recommender System
+\emph default
+: Implementation from sratch and lead architect.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Feb.
+ 2012 -
+\begin_inset Newline newline
+\end_inset
+
+Jul.
+ 2012
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Full-stack developer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "FXstreet.com"
+target "http://www.fxstreet.com/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Barcelona
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Spain
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+
+\emph on
+Software development
+\emph default
+: C# + .net MVC3 + jQuery on Azure.
+\end_layout
+
+\begin_layout ListItem
+
+\emph on
+Maintainance
+\emph default
+: 17-language multisite (Arabic, Russian, Japanese, etc.).
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Informatics skills
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Back-end
+\begin_inset Newline newline
+\end_inset
+
+engineer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+
+\series bold
+\emph on
+Python
+\series default
+\emph default
+: Samples at 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "/pycrastinate"
+target "https://github.com/isaacbernat/pycrastinate"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "/netflix-to-srt"
+target "https://github.com/isaacbernat/netflix-to-srt"
+
+\end_inset
+
+
+\emph default
+ or 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "/gae-shorten"
+target "https://github.com/isaacbernat/gae-shorten"
+
+\end_inset
+
+
+\emph default
+ on Github:
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Speaker
+\emph default
+: 
+\begin_inset CommandInset href
+LatexCommand href
+name "PyCon SE 2014"
+target "https://ep2014.europython.eu/"
+
+\end_inset
+
+; lightning talks at EuroPython + PyData Berlin 2014.
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Maintainer
+\emph default
+: 
+\begin_inset Quotes eld
+\end_inset
+
+users
+\begin_inset Quotes erd
+\end_inset
+
+ (67/260 commits), 9 contributors.
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Production-ready contributions
+\emph default
+: >>20.000 lines in >30 repos.
+\end_layout
+
+\begin_layout ListItem
+
+\series bold
+\emph on
+Go
+\series default
+\emph default
+: microservices at Wrapp 2.0 
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Maintainer
+\emph default
+: 
+\begin_inset Quotes eld
+\end_inset
+
+offers
+\begin_inset Quotes erd
+\end_inset
+
+ (284/1206 commits), 12 contributors.
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Production-ready contributions
+\emph default
+: ~13.000 lines in >12 repos.
+\end_layout
+
+\begin_layout ListItem
+
+\series bold
+\emph on
+Misc
+\series default
+\emph default
+:
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Scraping
+\emph default
+: >50 different scrapers and >>100.000 elements.
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Technologies
+\emph default
+: 
+\begin_inset CommandInset href
+LatexCommand href
+name "postgreSQL 9.5"
+target "https://www.postgresql.org/"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "MySQL"
+target "https://www.mysql.com/"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Docker"
+target "https://www.docker.com/"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "AWS"
+target "https://aws.amazon.com/"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Unix-like"
+target "https://en.wikipedia.org/wiki/Unix-like"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "REST"
+target "https://en.wikipedia.org/wiki/Representational_state_transfer"
+
+\end_inset
+
+, etc.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Front-end
+\begin_inset Newline newline
+\end_inset
+
+engineer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+
+\series bold
+\emph on
+Web
+\series default
+\emph default
+: Wrapp 1.0 web app + Landing pages:
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Maintainer 
+\emph default
+(fr.
+ 2013): 
+\begin_inset Quotes eld
+\end_inset
+
+consumer-web
+\begin_inset Quotes erd
+\end_inset
+
+ (660/6026 commits), 15 contributors.
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Maintainer
+\emph default
+: 
+\begin_inset Quotes eld
+\end_inset
+
+web-static
+\begin_inset Quotes erd
+\end_inset
+
+ (58/122 commits), 4 contributors.
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Production-ready contributions
+\emph default
+: >30k (JS), >6k (Dart) lines in >10 repos.
+\end_layout
+
+\begin_layout ListItem
+
+\series bold
+\emph on
+Misc
+\series default
+\emph default
+: Samples at 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "/rhythm-radar"
+target "https://github.com/isaacbernat/rhythm-radar"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "/dartmuti"
+target "https://github.com/isaacbernat/dartmuti"
+
+\end_inset
+
+
+\emph default
+ or 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "/panepond"
+target "https://github.com/isaacbernat/panepond"
+
+\end_inset
+
+
+\emph default
+ on Github:
+\begin_inset Newline newline
+\end_inset
+
+- 
+\emph on
+Technologies
+\emph default
+: 
+\begin_inset CommandInset href
+LatexCommand href
+name "d3.js"
+target "https://d3js.org/"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "angular2.js"
+target "https://angular.io"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Dart"
+target "https://www.dartlang.org/"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "Sass"
+target "http://sass-lang.com/"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "JSON"
+target "http://www.json.org/"
+
+\end_inset
+
+, 
+\begin_inset CommandInset href
+LatexCommand href
+name "responsive web"
+target "https://en.wikipedia.org/wiki/Responsive_web_design"
+
+\end_inset
+
+, etc.
+\begin_inset Newline newline
+\end_inset
+
+
+\emph on
+- Planning
+\emph default
+: Scrum, kanban, retrospectives, Planning Poker, etc.
+\end_layout
+
+\begin_layout Section
+Certificates
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2011 - Present
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Coursera, Udacity, etc
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Check 
+\begin_inset CommandInset href
+LatexCommand href
+name "github.com/isaacbernat/cv"
+target "https://github.com/isaacbernat/cv/tree/master/certificates"
+
+\end_inset
+
+ for specifics
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Apr.
+ 2011
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "3 Day Startup Barcelona (3DS)"
+target "http://barcelona.3daystartup.org/"
+
+\end_inset
+
+ - 1st Edition
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Participant
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Dec.
+ 2010
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Course on Stocks and Derivatives
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Bolsa de Madrid-Software Financiero Bolsa
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Oct.
+ 2008
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+European driving licence
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Category B
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Hobbies & interests
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+2006 – 2010
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+VP & Treasurer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Cultural Association 'La Fletxa Negra'
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Premià de Dalt
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Spain
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+Organise effective meetings, write concise minutes, basic accounting, etc.
+\end_layout
+
+\begin_layout DoubleItem
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Gaming
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Eurogames, FPS and 4x.
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Classical Music
+\end_layout
+
+\end_inset
+
+Esp.
+ period performances.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Reference
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tabular}{lr} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{minipage}[t]{2.5in}  
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Prof.
+ Antoni Olivé Ramon}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Head of ESSI dpt.
+ at UPC
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Faculty Dean (1987-1992)
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+fixedphonesymbol +34 ---- ------ ---- ----
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emailsymbol 
+\backslash
+href{mailto:------------@upc.edu}{------------
+\backslash
+textrm{@}upc.edu}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{minipage}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{minipage}[t]{2.5in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Adrià Casas Escoda}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Co-worker at wrapp.com
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Back-end engineer (Spotify)
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+mobilephonesymbol +46 ---- ------ ---- ----
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emailsymbol 
+\backslash
+href{mailto:------------@gmail.com}{------------
+\backslash
+textrm{@}gmail.com}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{minipage}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{minipage}[t]{2.5in}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+textbf{Eskil Andréen}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+Supervisor at wrapp.com
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+CTO (Wrapp)
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+mobilephonesymbol +46 ---- ------ ---- ----
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+emailsymbol 
+\backslash
+href{mailto:------------@gmail.com}{------------
+\backslash
+textrm{@}gmail.com}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{minipage}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tabular}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
