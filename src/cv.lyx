@@ -16,9 +16,10 @@
 \firstname{Isaac}
 \familyname{Bernat}
 \title{Full-stack engineer}
-\address{Latest version at: \\ \href{https://github.com/isaacbernat/cv/raw/master/cv.pdf}{github.com/isaacbernat/cv} \\[1em] }{Barcelona, Spain}
-\email{isaac.bernat@gmail.com}
+\address{Latest version at: \\ \href{https://github.com/isaacbernat/cv/raw/master/cv.pdf}{github.com/isaacbernat/cv} \\[1em] Nationality: Spanish\\}{Stockholm, Sweden}
+
 \photo[64pt]{portrait.png}
+\email{isaac.bernat@gmail.com}
 \end_preamble
 \use_default_options false
 \maintain_unincluded_children false
@@ -114,6 +115,89 @@ maketitle
 Experience
 \end_layout
 
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Mar.
+ 2018
+\begin_inset space ~
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Full-stack engineer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Ivbar Institute"
+target "http://ivbar.com/"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Stockholm
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Sweden
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 0.5cm
+\end_inset
+
+
+\end_layout
+
 \begin_layout Entry
 \begin_inset Argument 1
 status open
@@ -124,7 +208,8 @@ Jun.
 \begin_inset Newline newline
 \end_inset
 
-Present
+Feb.
+ 2018
 \begin_inset space ~
 \end_inset
 
@@ -554,7 +639,7 @@ E-mail service
 \emph on
 A/B test
 \emph default
-: subjects, preheader-text, images...
+: subjects, preheader-text, images, conditional rendering...
 \begin_inset Newline newline
 \end_inset
 
@@ -562,15 +647,7 @@ A/B test
 \emph on
 Tracking
 \emph default
-: open rate, click through rate on each element, segmentation...
-\begin_inset Newline newline
-\end_inset
-
-- 
-\emph on
-Conditional rendering
-\emph default
-: custom module system, non-active users...
+: open rate, click through rate per element, segmentation...
 \begin_inset Newline newline
 \end_inset
 
@@ -605,7 +682,7 @@ Third party integration
 \emph on
 Implemented
 \emph default
-: gifting flow, mobile views, log in A/B test...
+: gifting flow, mobile views, login A/B test...
 \end_layout
 
 \begin_layout Standard
@@ -1967,6 +2044,44 @@ Classical Music
 
 Esp.
  period performances.
+\end_layout
+
+\begin_layout DoubleItem
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Learning
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Articles, books, MOOCs...
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+Comp.
+ Science
+\end_layout
+
+\end_inset
+
+History and practise.
 \end_layout
 
 \begin_layout Entry
