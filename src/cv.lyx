@@ -208,7 +208,7 @@ Jun.
 \begin_inset Newline newline
 \end_inset
 
-Feb.
+Jan.
  2018
 \begin_inset space ~
 \end_inset
@@ -881,7 +881,7 @@ Spain
 \begin_layout ListItem
 
 \emph on
-Maintainance
+Maintenance
 \emph default
 : 17-language multisite in C# + .net MVC3 + jQuery on Azure.
 \end_layout
