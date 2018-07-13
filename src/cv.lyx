@@ -116,7 +116,7 @@ Experience
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 0.5cm
+\begin_inset VSpace 0.4cm
 \end_inset
 
 
@@ -128,7 +128,11 @@ status open
 
 \begin_layout Plain Layout
 Mar.
- 2018
+ 2018 -
+\begin_inset Newline newline
+\end_inset
+
+Present
 \begin_inset space ~
 \end_inset
 
@@ -146,7 +150,7 @@ Mar.
 status open
 
 \begin_layout Plain Layout
-Full-stack engineer
+Back-end engineer
 \end_layout
 
 \end_inset
@@ -189,6 +193,29 @@ Sweden
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace -0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout ListItem
+
+\emph on
+NKBC
+\emph default
+: processor for 
+\begin_inset CommandInset href
+LatexCommand href
+name "National Quality Registry for Breast Cancer"
+target "https://www.cancercentrum.se/globalassets/cancerdiagnoser/brost/kvalitetsregister/nkbc-variabelbeskrivning.pdf"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -286,7 +313,15 @@ Spain
 Information
 \series default
 \emph default
-: market intelligence, ERP migration, transition to SII...
+: market intelligence, ERP migration, transition to 
+\begin_inset CommandInset href
+LatexCommand href
+name "SII"
+target "https://www.agenciatributaria.es/AEAT.internet/en_gb/Inicio/La_Agencia_Tributaria/Campanas/Suministro_Inmediato_de_Informacion_en_el_IVA__SII_/Suministro_Inmediato_de_Informacion_en_el_IVA__SII_.shtml"
+
+\end_inset
+
+...
 \end_layout
 
 \begin_layout ListItem
@@ -778,8 +813,7 @@ Sweden
 \emph on
 News service
 \emph default
-: create a storage-agnostic API for all newsfeed-related functions.
- Implement in-memory (testing) and MySQL (production) backends.
+: with in-memory (testing) and MySQL (production) backends.
 \end_layout
 
 \begin_layout ListItem
@@ -1039,7 +1073,11 @@ users
 \begin_inset Quotes erd
 \end_inset
 
- (67/260 commits), 9 contributors.
+ (67/260 commits), 9 contributors 
+\emph on
+(Wrapp)
+\emph default
+.
 \begin_inset Newline newline
 \end_inset
 
@@ -1073,7 +1111,11 @@ offers
 \begin_inset Quotes erd
 \end_inset
 
- (284/1206 commits), 12 contributors.
+ (284/1206 commits), 12 contributors
+\emph on
+ (Wrapp)
+\emph default
+.
 \begin_inset Newline newline
 \end_inset
 
