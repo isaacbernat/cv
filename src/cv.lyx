@@ -1133,7 +1133,19 @@ Production-ready contributions
 Misc
 \series default
 \emph default
-:
+: samples at 
+\emph on
+
+\begin_inset CommandInset href
+LatexCommand href
+name "/docker-pudb"
+target "https://github.com/isaacbernat/docker-pudb"
+
+\end_inset
+
+
+\emph default
+ on GitHub:
 \begin_inset Newline newline
 \end_inset
 
