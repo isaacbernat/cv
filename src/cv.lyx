@@ -16,7 +16,7 @@
 \firstname{Isaac}
 \familyname{Bernat}
 \title{Full-stack engineer}
-\address{Latest version at: \\ \href{https://github.com/isaacbernat/cv/raw/master/cv.pdf}{github.com/isaacbernat/cv} \\[1em] Nationality: Spanish\\}{Stockholm, Sweden}
+\address{Latest version at: \\ \texttt{\textup{\href{https://github.com/isaacbernat/cv/raw/master/cv.pdf}{github.com/isaacbernat/cv}}} \\[1em] PyCon Sweden 2019 talk:\\ \href{youtu.be/asZ0SDTKqvM}{From >1 Bn years to <1 sec}\\ \texttt{\textup{\href{https://youtu.be/asZ0SDTKqvM}{youtu.be/asZ0SDTKqvM}}} \\[1em] Nationality: Spanish\\}{Stockholm, Sweden}
 
 \photo[64pt]{portrait.png}
 \email{isaac.bernat@gmail.com}
@@ -93,7 +93,7 @@
 
 \begin_layout Standard
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -650,7 +650,7 @@ Sweden
 \emph on
 Data Warehouse
 \emph default
-: design and optimise ETL pipeline for Redshift DW.
+: design and optimise ETL pipeline for Redshift.
 \end_layout
 
 \begin_layout ListItem
@@ -1120,7 +1120,15 @@ target "https://www.pycon.se/2014/"
 \begin_inset Newline newline
 \end_inset
 
- youtube
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "youtube"
+target "https://www.youtube.com/watch?v=asZ0SDTKqvM"
+
+\end_inset
+
+
 \begin_inset Formula $\leftarrow$
 \end_inset
 
@@ -1133,7 +1141,7 @@ target "https://www.pycon.se/2014/"
 \begin_inset CommandInset href
 LatexCommand href
 name "PyCon SE 2019"
-target "https://www.pycon.se/index.html#talks"
+target "https://www.youtube.com/watch?v=asZ0SDTKqvM"
 
 \end_inset
 
@@ -1697,7 +1705,7 @@ target "http://www.fib.upc.edu/en/estudiar-enginyeria-informatica/enginyeries-pl
 status open
 
 \begin_layout Plain Layout
-UPC-Barcelona Tech
+UPC-BarcelonaTech
 \end_layout
 
 \end_inset
@@ -1957,7 +1965,7 @@ target "https://github.com/isaacbernat/cv/tree/master/certificates"
 
 \end_inset
 
- for specifics
+
 \end_layout
 
 \end_inset
