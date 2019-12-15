@@ -16,7 +16,7 @@
 \firstname{Isaac}
 \familyname{Bernat}
 \title{Full-stack engineer}
-\address{Latest version at: \\ \texttt{\textup{\href{https://github.com/isaacbernat/cv/raw/master/cv.pdf}{github.com/isaacbernat/cv}}} \\[1em] PyCon Sweden 2019 talk:\\ \href{youtu.be/asZ0SDTKqvM}{From >1 Bn years to <1 sec}\\ \texttt{\textup{\href{https://youtu.be/asZ0SDTKqvM}{youtu.be/asZ0SDTKqvM}}} \\[1em] Nationality: Spanish\\}{Stockholm, Sweden}
+\address{Latest cv + code samples: \\ \texttt{\textup{\href{https://github.com/isaacbernat/cv/raw/master/cv.pdf}{github.com/isaacbernat/cv}}} \\[1em] \href{https://youtu.be/asZ0SDTKqvM}{PyCon Sweden 2019 talk:}\\ \texttt{\textup{\href{https://youtu.be/asZ0SDTKqvM}{youtu.be/asZ0SDTKqvM}}} \\[1em] Nationality: Spanish\\}{Stockholm, Sweden}
 
 \photo[64pt]{portrait.png}
 \email{isaac.bernat@gmail.com}
@@ -1068,39 +1068,7 @@ status open
 Python
 \series default
 \emph default
-: GitHub samples 
-\begin_inset Formula $\rightarrow$
-\end_inset
-
- 
-\emph on
-
-\begin_inset CommandInset href
-LatexCommand href
-name "/netflix-to-srt"
-target "https://github.com/isaacbernat/netflix-to-srt"
-
-\end_inset
-
-, 
-\begin_inset CommandInset href
-LatexCommand href
-name "/gae-shorten"
-target "https://github.com/isaacbernat/gae-shorten"
-
-\end_inset
-
-, 
-\begin_inset CommandInset href
-LatexCommand href
-name "/pycrastinate"
-target "https://github.com/isaacbernat/pycrastinate"
-
-\end_inset
-
-
-\emph default
-...
+: >30 microservices at Wrapp 2.0; Monoliths at Ivbar + Wrapp 1.0
 \begin_inset Newline newline
 \end_inset
 
@@ -1148,7 +1116,7 @@ target "https://www.youtube.com/watch?v=asZ0SDTKqvM"
 : 
 \begin_inset CommandInset href
 LatexCommand href
-name "From > 1 Billion years to < 1 second"
+name "From > 1 Billion years to < 1 second."
 target "https://github.com/isaacbernat/presentations/tree/master/optimise"
 
 \end_inset

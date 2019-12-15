@@ -1,0 +1,3 @@
+[submodule "samples/gae-shorten"]
+	path = samples/gae-shorten
+	url = git@github.com:isaacbernat/gae-shorten.git
