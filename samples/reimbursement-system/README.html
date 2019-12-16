@@ -1,0 +1,1272 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><style>@font-face {
+  font-family: octicons-anchor;
+  src: url(data:font/woff;charset=utf-8;base64,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) format('woff');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body .markdown-body {
+    padding: 45px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    word-wrap: break-word;
+}
+
+pre {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.6;
+  word-wrap: break-word;
+}
+
+.markdown-body a {
+  background-color: transparent;
+}
+
+.markdown-body a:active,
+.markdown-body a:hover {
+  outline: 0;
+}
+
+.markdown-body strong {
+  font-weight: bold;
+}
+
+.markdown-body h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+.markdown-body img {
+  border: 0;
+}
+
+.markdown-body hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+.markdown-body pre {
+  overflow: auto;
+}
+
+.markdown-body code,
+.markdown-body kbd,
+.markdown-body pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+.markdown-body input {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+.markdown-body html input[disabled] {
+  cursor: default;
+}
+
+.markdown-body input {
+  line-height: normal;
+}
+
+.markdown-body input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.markdown-body table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.markdown-body td,
+.markdown-body th {
+  padding: 0;
+}
+
+.markdown-body input {
+  font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.markdown-body a {
+  color: #4078c0;
+  text-decoration: none;
+}
+
+.markdown-body a:hover,
+.markdown-body a:active {
+  text-decoration: underline;
+}
+
+.markdown-body hr {
+  height: 0;
+  margin: 15px 0;
+  overflow: hidden;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.markdown-body hr:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body hr:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 1.1;
+}
+
+.markdown-body h1 {
+  font-size: 30px;
+}
+
+.markdown-body h2 {
+  font-size: 21px;
+}
+
+.markdown-body h3 {
+  font-size: 16px;
+}
+
+.markdown-body h4 {
+  font-size: 14px;
+}
+
+.markdown-body h5 {
+  font-size: 12px;
+}
+
+.markdown-body h6 {
+  font-size: 11px;
+}
+
+.markdown-body blockquote {
+  margin: 0;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body ol ol,
+.markdown-body ul ol {
+  list-style-type: lower-roman;
+}
+
+.markdown-body ul ul ol,
+.markdown-body ul ol ol,
+.markdown-body ol ul ol,
+.markdown-body ol ol ol {
+  list-style-type: lower-alpha;
+}
+
+.markdown-body dd {
+  margin-left: 0;
+}
+
+.markdown-body code {
+  font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  font-size: 12px;
+}
+
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+.markdown-body .select::-ms-expand {
+  opacity: 0;
+}
+
+.markdown-body .octicon {
+  font: normal normal normal 16px/1 octicons-anchor;
+  display: inline-block;
+  text-decoration: none;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.markdown-body .octicon-link:before {
+  content: '\f05c';
+}
+
+.markdown-body:before {
+  display: table;
+  content: "";
+}
+
+.markdown-body:after {
+  display: table;
+  clear: both;
+  content: "";
+}
+
+.markdown-body>*:first-child {
+  margin-top: 0 !important;
+}
+
+.markdown-body>*:last-child {
+  margin-bottom: 0 !important;
+}
+
+.markdown-body a:not([href]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+.markdown-body .anchor {
+  display: inline-block;
+  padding-right: 2px;
+  margin-left: -18px;
+}
+
+.markdown-body .anchor:focus {
+  outline: none;
+}
+
+.markdown-body h1,
+.markdown-body h2,
+.markdown-body h3,
+.markdown-body h4,
+.markdown-body h5,
+.markdown-body h6 {
+  margin-top: 1em;
+  margin-bottom: 16px;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.markdown-body h1 .octicon-link,
+.markdown-body h2 .octicon-link,
+.markdown-body h3 .octicon-link,
+.markdown-body h4 .octicon-link,
+.markdown-body h5 .octicon-link,
+.markdown-body h6 .octicon-link {
+  color: #000;
+  vertical-align: middle;
+  visibility: hidden;
+}
+
+.markdown-body h1:hover .anchor,
+.markdown-body h2:hover .anchor,
+.markdown-body h3:hover .anchor,
+.markdown-body h4:hover .anchor,
+.markdown-body h5:hover .anchor,
+.markdown-body h6:hover .anchor {
+  text-decoration: none;
+}
+
+.markdown-body h1:hover .anchor .octicon-link,
+.markdown-body h2:hover .anchor .octicon-link,
+.markdown-body h3:hover .anchor .octicon-link,
+.markdown-body h4:hover .anchor .octicon-link,
+.markdown-body h5:hover .anchor .octicon-link,
+.markdown-body h6:hover .anchor .octicon-link {
+  visibility: visible;
+}
+
+.markdown-body h1 {
+  padding-bottom: 0.3em;
+  font-size: 2.25em;
+  line-height: 1.2;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h1 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h2 {
+  padding-bottom: 0.3em;
+  font-size: 1.75em;
+  line-height: 1.225;
+  border-bottom: 1px solid #eee;
+}
+
+.markdown-body h2 .anchor {
+  line-height: 1;
+}
+
+.markdown-body h3 {
+  font-size: 1.5em;
+  line-height: 1.43;
+}
+
+.markdown-body h3 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h4 {
+  font-size: 1.25em;
+}
+
+.markdown-body h4 .anchor {
+  line-height: 1.2;
+}
+
+.markdown-body h5 {
+  font-size: 1em;
+}
+
+.markdown-body h5 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body h6 {
+  font-size: 1em;
+  color: #777;
+}
+
+.markdown-body h6 .anchor {
+  line-height: 1.1;
+}
+
+.markdown-body p,
+.markdown-body blockquote,
+.markdown-body ul,
+.markdown-body ol,
+.markdown-body dl,
+.markdown-body table,
+.markdown-body pre {
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.markdown-body hr {
+  height: 4px;
+  padding: 0;
+  margin: 16px 0;
+  background-color: #e7e7e7;
+  border: 0 none;
+}
+
+.markdown-body ul,
+.markdown-body ol {
+  padding-left: 2em;
+}
+
+.markdown-body ul ul,
+.markdown-body ul ol,
+.markdown-body ol ol,
+.markdown-body ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.markdown-body li>p {
+  margin-top: 16px;
+}
+
+.markdown-body dl {
+  padding: 0;
+}
+
+.markdown-body dl dt {
+  padding: 0;
+  margin-top: 16px;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.markdown-body dl dd {
+  padding: 0 16px;
+  margin-bottom: 16px;
+}
+
+.markdown-body blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+.markdown-body blockquote>:first-child {
+  margin-top: 0;
+}
+
+.markdown-body blockquote>:last-child {
+  margin-bottom: 0;
+}
+
+.markdown-body table {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  word-break: normal;
+  word-break: keep-all;
+}
+
+.markdown-body table th {
+  font-weight: bold;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  padding: 6px 13px;
+  border: 1px solid #ddd;
+}
+
+.markdown-body table tr {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f8f8f8;
+}
+
+.markdown-body img {
+  max-width: 100%;
+  box-sizing: content-box;
+  background-color: #fff;
+}
+
+.markdown-body code {
+  padding: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+.markdown-body code:before,
+.markdown-body code:after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+.markdown-body pre>code {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+  word-break: normal;
+  white-space: pre;
+  background: transparent;
+  border: 0;
+}
+
+.markdown-body .highlight {
+  margin-bottom: 16px;
+}
+
+.markdown-body .highlight pre,
+.markdown-body pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+.markdown-body .highlight pre {
+  margin-bottom: 0;
+  word-break: normal;
+}
+
+.markdown-body pre {
+  word-wrap: normal;
+}
+
+.markdown-body pre code {
+  display: inline;
+  max-width: initial;
+  padding: 0;
+  margin: 0;
+  overflow: initial;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
+.markdown-body pre code:before,
+.markdown-body pre code:after {
+  content: normal;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .pl-c {
+  color: #969896;
+}
+
+.markdown-body .pl-c1,
+.markdown-body .pl-s .pl-v {
+  color: #0086b3;
+}
+
+.markdown-body .pl-e,
+.markdown-body .pl-en {
+  color: #795da3;
+}
+
+.markdown-body .pl-s .pl-s1,
+.markdown-body .pl-smi {
+  color: #333;
+}
+
+.markdown-body .pl-ent {
+  color: #63a35c;
+}
+
+.markdown-body .pl-k {
+  color: #a71d5d;
+}
+
+.markdown-body .pl-pds,
+.markdown-body .pl-s,
+.markdown-body .pl-s .pl-pse .pl-s1,
+.markdown-body .pl-sr,
+.markdown-body .pl-sr .pl-cce,
+.markdown-body .pl-sr .pl-sra,
+.markdown-body .pl-sr .pl-sre {
+  color: #183691;
+}
+
+.markdown-body .pl-v {
+  color: #ed6a43;
+}
+
+.markdown-body .pl-id {
+  color: #b52a1d;
+}
+
+.markdown-body .pl-ii {
+  background-color: #b52a1d;
+  color: #f8f8f8;
+}
+
+.markdown-body .pl-sr .pl-cce {
+  color: #63a35c;
+  font-weight: bold;
+}
+
+.markdown-body .pl-ml {
+  color: #693a17;
+}
+
+.markdown-body .pl-mh,
+.markdown-body .pl-mh .pl-en,
+.markdown-body .pl-ms {
+  color: #1d3e81;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mq {
+  color: #008080;
+}
+
+.markdown-body .pl-mi {
+  color: #333;
+  font-style: italic;
+}
+
+.markdown-body .pl-mb {
+  color: #333;
+  font-weight: bold;
+}
+
+.markdown-body .pl-md {
+  background-color: #ffecec;
+  color: #bd2c00;
+}
+
+.markdown-body .pl-mi1 {
+  background-color: #eaffea;
+  color: #55a532;
+}
+
+.markdown-body .pl-mdr {
+  color: #795da3;
+  font-weight: bold;
+}
+
+.markdown-body .pl-mo {
+  color: #1d3e81;
+}
+
+.markdown-body kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font: 11px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb;
+}
+
+.markdown-body .plan-price-unit {
+  color: #767676;
+  font-weight: normal;
+}
+
+.markdown-body .task-list-item {
+  list-style-type: none;
+}
+
+.markdown-body .task-list-item+.task-list-item {
+  margin-top: 3px;
+}
+
+.markdown-body .task-list-item input {
+  margin: 0 0.35em 0.25em -1.6em;
+  vertical-align: middle;
+}
+
+.markdown-body .plan-choice {
+  padding: 15px;
+  padding-left: 40px;
+  display: block;
+  border: 1px solid #e0e0e0;
+  position: relative;
+  font-weight: normal;
+  background-color: #fafafa;
+}
+
+.markdown-body .plan-choice.open {
+  background-color: #fff;
+}
+
+.markdown-body .plan-choice.open .plan-choice-seat-breakdown {
+  display: block;
+}
+
+.markdown-body .plan-choice-free {
+  border-radius: 3px 3px 0 0;
+}
+
+.markdown-body .plan-choice-paid {
+  border-radius: 0 0 3px 3px;
+  border-top: 0;
+  margin-bottom: 20px;
+}
+
+.markdown-body .plan-choice-radio {
+  position: absolute;
+  left: 15px;
+  top: 18px;
+}
+
+.markdown-body .plan-choice-exp {
+  color: #999;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.markdown-body .plan-choice-seat-breakdown {
+  margin-top: 10px;
+  display: none;
+}
+
+.markdown-body :checked+.radio-label {
+  z-index: 1;
+  position: relative;
+  border-color: #4078c0;
+}
+</style><title>README</title></head><body><article class="markdown-body"><h1>
+<a id="user-content-developer-work-test" class="anchor" href="#developer-work-test" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Developer work test</h1>
+<p>This readme:</p>
+<ul>
+<li>Provides the received instructions.</li>
+<li>Describes how to get the project up and running.</li>
+<li>Explains assumptions/decisions that shaped the project.</li>
+<li>Outlines improvements and further work that could be done.</li>
+</ul>
+<h2>
+<a id="user-content-instructions" class="anchor" href="#instructions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Instructions</h2>
+<h3>
+<a id="user-content-general-guidelines" class="anchor" href="#general-guidelines" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>General Guidelines</h3>
+<p>You are free to solve the problems in any way you like within the
+constraints listed. Where specifications are insufficient you should
+document your assumptions.</p>
+<p>Try to time box your work to a maximum of 8 h. Prioritize good code
+over more features! Document in your readme what you left out (e.g.
+authentication or logging).</p>
+<p>The solution should run on Python, and any third party libraries used
+should be listed (with fixed version) in a requirements file. It
+should be possible to easily set up the environment using the
+requirements file.</p>
+<p>You are encouraged to discuss your solution with us, do not hesitate
+to contact us at any stage of your work - from planning to final
+implementation.</p>
+<h3>
+<a id="user-content-assignment" class="anchor" href="#assignment" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Assignment</h3>
+<p>Using Django or Flask (or another web app framework agreed upon), build
+a backend with an HTTP API that mimics a minimal system for handling
+reimbursements in health care.</p>
+<p>If you use a database, SQLite is strongly preferred. Any other choice
+must be agreed upon. This makes the evaluation easier for us.</p>
+<p>API requirements:</p>
+<ol>
+<li>
+<p>It should be possible for a care giver to register healthcare
+events (including &lt;event type, timestamp, care giver&gt;). Each event
+type corresponds to a fixed sum of money to be reimbursed to the
+care giver.</p>
+</li>
+<li>
+<p>It should be possible to fetch a report with reimbursements summed
+by month, per care giver. Further, it should be possible to select
+what time period and which care givers the report covers.</p>
+</li>
+</ol>
+<p>The application should be designed to be able to handle at least five
+years of data and millions of registered healthcare events.</p>
+<h3>
+<a id="user-content-evaluation" class="anchor" href="#evaluation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Evaluation</h3>
+<p>In our evaluation we will look at:</p>
+<ul>
+<li>How you design the API</li>
+<li>How you test your code</li>
+<li>How you handle errors</li>
+<li>Usage of relevant third party libraries</li>
+<li>Performance</li>
+</ul>
+<p>You'll have the opportunity to discuss you're solution in detail with
+us at the follow-up meeting.</p>
+<h3>
+<a id="user-content-the-solution" class="anchor" href="#the-solution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The Solution</h3>
+<p>The solution (or questions) should be sent to <a href="mailto:dev@COMPANY.com">dev@COMPANY.com</a> before the
+agreed deadline.</p>
+<h2>
+<a id="user-content-running-the-app" class="anchor" href="#running-the-app" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Running the app</h2>
+<h3>
+<a id="user-content-setup" class="anchor" href="#setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setup</h3>
+<ol>
+<li>Fork/Clone/Download this repo.</li>
+<li>Install <a href="https://docs.docker.com/compose/install/">docker compose</a>
+</li>
+<li>Copy and paste in a terminal:</li>
+</ol>
+<div class="highlight highlight-source-shell"><pre><span class="pl-c"><span class="pl-c">#</span> Build the images</span>
+docker-compose build
+<span class="pl-c"><span class="pl-c">#</span> Run the containers (in the background)</span>
+docker-compose up -d
+<span class="pl-c"><span class="pl-c">#</span> Create database</span>
+docker-compose run events-service python manage.py recreate_db
+<span class="pl-c"><span class="pl-c">#</span> Run tests</span>
+docker-compose run events-service python manage.py <span class="pl-c1">test</span>
+<span class="pl-c"><span class="pl-c">#</span> List running containers basic information</span>
+docker ps</pre></div>
+<h3>
+<a id="user-content-try-it-live" class="anchor" href="#try-it-live" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Try it live!</h3>
+<p>The last command (<code>docker ps</code>) should show something similar to this:</p>
+<pre><code>CONTAINER ID        IMAGE                     COMMAND                  CREATED             STATUS                   PORTS                    NAMES
+4653150545b5        test_nginx            "nginx -g 'daemon ..."   14 minutes ago      Up 7 minutes             0.0.0.0:80-&gt;80/tcp       nginx
+229c163964b6        test_events-service   "/bin/sh -c 'pytho..."   14 minutes ago      Up 7 minutes             0.0.0.0:5001-&gt;5000/tcp   events-service
+84017cfb532b        test_events-db        "docker-entrypoint..."   15 minutes ago      Up 8 minutes (healthy)   0.0.0.0:5435-&gt;5432/tcp   events-db
+</code></pre>
+<p>The events-service address should be shown. It may be opened in a web browser.
+It can also be "curled" from a terminal. You may try
+<code>curl http://0.0.0.0:5001/ping</code> to ensure it respons "pong" with success status.</p>
+<h3>
+<a id="user-content-more-handy-docker-compose-commands" class="anchor" href="#more-handy-docker-compose-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>More handy docker-compose commands</h3>
+<p>In addition to those from setup. You may skip this section if already familiar.</p>
+<div class="highlight highlight-source-shell"><pre><span class="pl-c"><span class="pl-c">#</span> Stop the containers</span>
+docker-compose stop
+
+<span class="pl-c"><span class="pl-c">#</span> Bring down the containers:</span>
+docker-compose down
+
+<span class="pl-c"><span class="pl-c">#</span> Force a build</span>
+docker-compose build --no-cache
+
+<span class="pl-c"><span class="pl-c">#</span> Delete all containers</span>
+docker rm <span class="pl-s"><span class="pl-pds">$(</span>docker ps -a -q<span class="pl-pds">)</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> Delete all images</span>
+docker rmi <span class="pl-s"><span class="pl-pds">$(</span>docker images -q<span class="pl-pds">)</span></span>
+
+<span class="pl-c"><span class="pl-c">#</span> Check logs</span>
+docker-compose logs <span class="pl-k">&lt;</span>service-name<span class="pl-k">&gt;</span></pre></div>
+<h2>
+<a id="user-content-implementation-details" class="anchor" href="#implementation-details" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Implementation details</h2>
+<p>This section explains the reasoning behind assumptions that were made.
+It also tells how decisions were made to align with the evaluated aspects.</p>
+<h3>
+<a id="user-content-data-model" class="anchor" href="#data-model" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Data model</h3>
+<p>The data model (<code>project/api/models.py</code>) consists of the following entities.</p>
+<h4>
+<a id="user-content-event" class="anchor" href="#event" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Event</h4>
+<p>This entity conforms to all requirements as specified in the instructions
+<em>register healthcare events (including &lt;event type, timestamp, care giver&gt;)</em>
+and a few more.</p>
+<ul>
+<li>
+<strong>id</strong>: an autoincrementing integer. Chosen for simplicity. A UUID could be
+a good choice for performance/security/etc (more details in further sections)</li>
+<li>
+<strong>type_id</strong>: a foreign key to the Event Type it belongs to.</li>
+<li>
+<strong>caregiver_id</strong>: we assume 1 and only 1 per event.</li>
+<li>
+<strong>start_time</strong>: timestamp which states when the event took place.</li>
+<li>
+<strong>reimbursed</strong>: determines if the event has been reimbursed to the caregiver.</li>
+<li>
+<strong>created_at</strong>: when the event was introduced in the DB. Useful for auditing.</li>
+</ul>
+<h4>
+<a id="user-content-event-type" class="anchor" href="#event-type" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Event type</h4>
+<ul>
+<li>
+<strong>id</strong>: same reasoning as above.</li>
+<li>
+<strong>name</strong>: an alternative id (is unique). Human readable.</li>
+<li>
+<strong>amount_in_cents</strong>: an integer. We consider only significant figures and
+treat them as integers to avoid precision errors associated with other number
+representations. Especially important for accounting audits.</li>
+<li>
+<strong>currency</strong>: for simplicity only SEK are allowed.</li>
+</ul>
+<p>I personally think <strong>amount</strong> should belong to the Event not to the Event Type
+entity. This is because the cost for an Event Type may change at some point in
+time and there would not be any way to reflect this in a report (e.g. a law is
+passed saying "x-rays must be recalibrated between each use". This turns a 5
+minute process into a 30 minute one. This would increase the Event Type cost.
+Of course past x-ray Events should use the previous standard cost).</p>
+<p>I implemented it this way because I inferred this is what it was expected from
+the instructions <em>Each event type corresponds to a fixed sum of money</em>.</p>
+<h4>
+<a id="user-content-caregivers" class="anchor" href="#caregivers" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Caregivers</h4>
+<p>An entity could be created to represent caregivers/personnel. In a microservice
+architecture this warrants a service of its own, since it is decoupled enough
+from Type/Event Type to share it with them. Due to time limitations it has not
+been implemented.</p>
+<h3>
+<a id="user-content-endpoints" class="anchor" href="#endpoints" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Endpoints</h3>
+<p>Here is a succint definition of the existing endpoints (<code>project/api/views.py</code>).
+There are no endpoints to update created resources (PUT verb). They could be
+trivially implemented if needed. Not having them saved development time.</p>
+<p>Additional filters for endpoints to get all events could be implemented the same
+way it is done for <code>/events/report</code>. Pagination could also be useful if the list
+of Events in the system is in the order or millions.</p>
+<h4>
+<a id="user-content-permissions" class="anchor" href="#permissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Permissions</h4>
+<p>Since no authentication has been implemented (due to time restrictions) all
+endpoints may be called by anyone. For this system to be production-ready, some
+restrictions should be enforced. Depending on the role/permissions associated
+with each user, actions could be restricted and data partially filtered.</p>
+<p>Examples follow:</p>
+<ul>
+<li>Managers calling the report endpoint should not get information regarding
+personnel outside their responsibilities (e.g. employees at other hospitals).</li>
+<li>Deletion endpoints should be more restricted than creation.</li>
+<li>Creation endpoints should be more restricted than read.</li>
+<li>Reimburse endpoint should only be callable by people on accounting department.</li>
+</ul>
+<h4>
+<a id="user-content-event-1" class="anchor" href="#event-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Event</h4>
+<ul>
+<li>
+<strong>/events</strong> <code>GET</code>: returns all events in the system.</li>
+<li>
+<strong>/events</strong> <code>POST</code>: creates an event. Returns <em>event_id</em> of created event.</li>
+<li>
+<strong>/events/&lt;event_id&gt;</strong> <code>GET</code>: gets the event with given <em>event_id</em>.</li>
+<li>
+<strong>/events/&lt;event_id&gt;</strong> <code>DELETE</code>: removes event with <em>event_id</em> from the system.</li>
+</ul>
+<h4>
+<a id="user-content-event-type-1" class="anchor" href="#event-type-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Event type</h4>
+<ul>
+<li>
+<strong>/events/types</strong> <code>GET</code>: returns all event types in the system.</li>
+<li>
+<strong>/events/types</strong> <code>POST</code>: creates an event type. Returns <em>id</em> of created type.</li>
+<li>
+<strong>/events/types/&lt;etype_id&gt;</strong> <code>GET</code>: gets the event type with given <em>etype_id</em>.</li>
+<li>
+<strong>/events/types/&lt;etype_id&gt;</strong> <code>DELETE</code>: removes event type with <em>etype_id</em>.</li>
+</ul>
+<h4>
+<a id="user-content-other" class="anchor" href="#other" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Other</h4>
+<ul>
+<li>
+<strong>/ping</strong> <code>GET</code>: responds if the system is up. It does not use DB nor it does
+any other kind of health/load check, but is useful to measure latency.</li>
+<li>
+<strong>/events/&lt;event_id&gt;/reimburse</strong> <code>POST</code>: marks event with <em>event_id</em> as
+reimbursed.</li>
+<li>
+<strong>/events/report</strong> <code>GET</code>: outputs a report of events which consists of summed
+amounts in SEK by <code>year&gt;month&gt;caregiver id</code>. They are further grouped by
+reimbursion state. Example output format of report field follows:</li>
+</ul>
+<div class="highlight highlight-source-python"><pre>    report <span class="pl-k">=</span> {
+        <span class="pl-s"><span class="pl-pds">'</span>2017<span class="pl-pds">'</span></span>: {
+            <span class="pl-s"><span class="pl-pds">'</span>Jan<span class="pl-pds">'</span></span>: {
+                caregiver_id1: {
+                    <span class="pl-s"><span class="pl-pds">'</span>non-reimbursed SEK<span class="pl-pds">'</span></span>: <span class="pl-c1">500</span>,
+                    <span class="pl-s"><span class="pl-pds">'</span>reimbursed SEK<span class="pl-pds">'</span></span>: <span class="pl-c1">2500</span>,
+                }
+                caregiver_id2: {
+                    <span class="pl-s"><span class="pl-pds">'</span>reimbursed SEK<span class="pl-pds">'</span></span>: <span class="pl-c1">1000</span>,
+                }
+                caregiver_id3: {
+                    <span class="pl-s"><span class="pl-pds">'</span>reimbursed SEK<span class="pl-pds">'</span></span>: <span class="pl-c1">2500</span>,
+                }
+            }
+            <span class="pl-s"><span class="pl-pds">'</span>Feb<span class="pl-pds">'</span></span>: {
+                caregiver_id1: {
+                    <span class="pl-s"><span class="pl-pds">'</span>non-reimbursed SEK<span class="pl-pds">'</span></span>: <span class="pl-c1">1500</span>,
+                }
+                caregiver_id3: {
+                    <span class="pl-s"><span class="pl-pds">'</span>reimbursed SEK<span class="pl-pds">'</span></span>: <span class="pl-c1">3000</span>,
+                    <span class="pl-s"><span class="pl-pds">'</span>non-reimbursed SEK<span class="pl-pds">'</span></span>: <span class="pl-c1">1000</span>,
+                }
+            }
+        }
+    }</pre></div>
+<ul>
+<li>
+<strong>/events/report</strong> <code>POST</code>: same as previous endpoint but accepts a POST
+payload which contain filters. Example below:</li>
+</ul>
+<div class="highlight highlight-source-python"><pre>  {
+    <span class="pl-s"><span class="pl-pds">'</span>caregiver_ids<span class="pl-pds">'</span></span>: [<span class="pl-c1">3</span>,<span class="pl-c1">4</span>,<span class="pl-c1">5</span>],  <span class="pl-c"><span class="pl-c">#</span> includes only events for selected caregivers</span>
+    <span class="pl-s"><span class="pl-pds">'</span>min_time<span class="pl-pds">'</span></span>: <span class="pl-s"><span class="pl-pds">'</span>2017-10-28T23:28:23.456701<span class="pl-pds">'</span></span>,  <span class="pl-c"><span class="pl-c">#</span> only events started after</span>
+    <span class="pl-s"><span class="pl-pds">'</span>max_time<span class="pl-pds">'</span></span>: <span class="pl-s"><span class="pl-pds">'</span>2017-10-28T23:28:23.456701<span class="pl-pds">'</span></span>,  <span class="pl-c"><span class="pl-c">#</span> only events started before</span>
+  }</pre></div>
+<h4>
+<a id="user-content-technical-details" class="anchor" href="#technical-details" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Technical details</h4>
+<p>For this project to scale to millions of users, a few changes should be applied.
+Some issues specific to concrete endpoints are listed here. On the performance
+section ahead, more abstract advice with a wider scope is also given.</p>
+<h5>
+<a id="user-content-events-post" class="anchor" href="#events-post" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>/events (POST)</h5>
+<h6>
+<a id="user-content-caregiver_id" class="anchor" href="#caregiver_id" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>caregiver_id</h6>
+<p>This project lacks verification for this field. It should be checked that this
+id is valid, that this caregiver can perform an Event of that Event Type, that
+the authed user has permissions to create an Event for that given caregiver, etc.</p>
+<p>In a microservice architecture this may require calls to several other services
+(e.g. personnel service). These multiple calls could make this endpoint slow.
+A strategy could be to cache that information or store it in memory. I could
+imagine a user at the end of the day entering all the Events he/she was involved
+in. This way only the first call would need to fetch most of the previous
+information.</p>
+<p>As always when there are caches, relatively short expiry times, ways to flush
+specific keys (e.g. calling an endpoint), etc. are encouraged to keep the data
+true to the original source. Changes should not be very frequent for caregiver
+information relevant to Events, but should be kept in mind.</p>
+<h6>
+<a id="user-content-start_time" class="anchor" href="#start_time" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>start_time</h6>
+<p>A rule should be placed so older events (e.g. &gt;12h) may not be entered. At
+least, not with the normal usage of this endpoint (or without special admin
+privileges). Main reasons are:</p>
+<ul>
+<li>Prevents tampering of old records. Willingly or not, the longer it takes to
+introduce the data the less reliable it becomes (details are forgotten, paper
+notes get lost, etc.)</li>
+<li>Keeps the system more complete. Users have a strong incentive to fill the data
+within the alloted maximum time. Reports generated, can be ensured to be more
+accurate, at least for periods older than the rule/limit. That also makes the DB
+a more valuable data source.</li>
+<li>Allows for pre-computing, caching, intermediate results, etc. If introduction
+of old Events (or data) is rare, old data can be stored in read-only replicas.
+A smaller database with just today's data can be merged with the historical
+read-only DB in nightly batches, etc. This can achieve important performance
+increases.</li>
+</ul>
+<h6>
+<a id="user-content-reimbursed" class="anchor" href="#reimbursed" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>reimbursed</h6>
+<p>An Event is always created with <code>reimbursed=False</code>, no matter what parameter
+values are submitted. This is because reimbursing an Event is very different
+from creating one. There should be a separate traceability for how this is done.
+It should probably be done by different users as well.</p>
+<p>Maybe it would be a good idea to return an error when this is submitted (as well
+as with id or non-valid parameters that will be ignored). It would be trivial to
+change this behaviour.</p>
+<h5>
+<a id="user-content-eventsreport" class="anchor" href="#eventsreport" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>/events/report</h5>
+<h6>
+<a id="user-content-caching" class="anchor" href="#caching" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>caching</h6>
+<p>This operation could become slow for DBs with many entries. Caching some partial
+aggregations seems a reasonable approach. Data is grouped by month and year. For
+historic data, the results should not change, as introducing old data in this
+system should not be the norm. Maybe only the latest month should be recomputed.</p>
+<p>Furthermore, the <code>generated_at</code> field returned could show the end user how old
+is the cached data obtained. If deemed too old, it could be flushed and
+recomputed again.</p>
+<h6>
+<a id="user-content-post-vs-get" class="anchor" href="#post-vs-get" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>POST vs GET</h6>
+<p>There is a GET version of this endpoint, since this is the one it makes most
+sense according to RESTful principles. Nevertheless, filterable options include
+an arbitrarily long list of caregiver_ids. It can be problematic to have long
+URLs. Therefore, the parameters are passed via POST instead of URL query strings
+parameters. Since POST payload is used for caregiver_ids, it is used by the
+other filtering options as well.</p>
+<h3>
+<a id="user-content-what-has-been-left-out" class="anchor" href="#what-has-been-left-out" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What has been left out?</h3>
+<p>Because of time constraints for this assignment, elements essential to a
+production-ready project of these characteristics had to be left out. Apart from
+more extensive testing or potential performance improvements (which are covered
+in the following section), what is especially missing is logging, monitoring,
+authentication or instructions on deployment. I wanted to remark these omissions
+as intended, and not as an oversight. They could be addressed with further alloted
+development time. I assumed the other implemented parts to be more relevant from
+your standpoint.</p>
+<h3>
+<a id="user-content-evaluation-1" class="anchor" href="#evaluation-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Evaluation</h3>
+<h4>
+<a id="user-content-api-design" class="anchor" href="#api-design" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>API design</h4>
+<p>The API is desgined following <a href="https://en.wikipedia.org/wiki/Representational_state_transfer#Applied_to_web_services">REST principles</a>.</p>
+<h5>
+<a id="user-content-versioning" class="anchor" href="#versioning" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Versioning</h5>
+<p>Any API should be designed to support versioning from the start. This is
+especially true when old clients are expected to be outside our control (i.e.
+unable to force those clients to update, but they still must be supported).
+There are many different valid approaches with their own pros and cons. I would
+use a query parameter (e.g. <a href="http://domain/url?version=1.0">http://domain/url?version=1.0</a>) to "force" a specific
+version of a resource to be served. Omission would default to the latest version.
+I would also include a field in the response indicating which version of the
+resource is being returned (and maybe which is the latest available, so the
+receiver may choose to update to a newer one if available).</p>
+<p>Of course, I value consistency over small implementation details. I would
+consider how the other services in the environment implement versioning and
+adjust accordingly.</p>
+<h4>
+<a id="user-content-code-testing" class="anchor" href="#code-testing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Code testing</h4>
+<p>I think TDD is a nice practise. Code coverage metrics are also useful.
+My opinion on the topic is not set in stone, but one should never mistake
+a 100% path coverage with bug-free code.
+My own approach is to add tests for each non-trivial functionality which cover:</p>
+<ul>
+<li>Simple base cases.</li>
+<li>Complex cases using as many different options as possible/reasonable.</li>
+<li>Corner cases and likely exploits that come to mind.</li>
+</ul>
+<p>Balance between adding more tests to increase confidence in the code and
+time/effort spent in other parts of the software development process must be reached.</p>
+<h4>
+<a id="user-content-error-handling" class="anchor" href="#error-handling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Error handling</h4>
+<p>Incorrect error handling may pose serious security risks. When an error occurs,
+no more information than needed should be provided to the end user. Revealing too
+much could be used in exploits.</p>
+<p>An error may be caused by non-malicious usage. When this is predictably the case,
+the user ought to be informed. To avoid more frustration, the user should be
+offered help/details to fulfill his/her goals with descriptive messages.
+Nevertheless, this should not conflict with previous paragraph.</p>
+<p>When an error occurs, as much information as possible on the state should be
+gathered and logged. This aids in debugging the system, finding the cause, etc.
+Logs should be monitored. Abnormal errors should trigger alarms to whomever
+is responsible for the security. Repeated errors in a short time period, sharing
+the same IP, parameters or overly similar patterns should be carefully analysed and
+automatic temporary rate limiting could be enforced to prevent further damage.
+When the situation is manually addressed, the limiting could be lifted. These
+are valid signs of suspicion of an attack.</p>
+<h4>
+<a id="user-content-usage-of-relevant-third-parties" class="anchor" href="#usage-of-relevant-third-parties" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Usage of relevant third parties</h4>
+<h5>
+<a id="user-content-git" class="anchor" href="#git" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git</h5>
+<p>A solid version control system. The most widely used according to Stack Overflow.</p>
+<h5>
+<a id="user-content-python-3" class="anchor" href="#python-3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Python 3</h5>
+<p>It is suggested that Python is used in the description. The choice was easy.
+(you also mentioned Go as a possibility in a previous conversation).
+The choice of Python3 over Python2 seems obvious for a new project. Some reasons:</p>
+<ul>
+<li>Python3's is more consistent with The Zen of Python (PEP 20) than Python2.
+<em>There should be one-- and preferably only one --obvious way to do it</em> and
+<em>Special cases aren't special enough to break the rules</em> comes to mind.
+<ul>
+<li>py2 <code>print</code> vs py3 <code>print()</code>.</li>
+<li>all "strings" are unicode in python3.</li>
+<li>py2 <code>range</code> and <code>xrange</code>.</li>
+</ul>
+</li>
+<li>
+<a href="http://py3readiness.org/">Most major libraries</a> are already ported to Python3.</li>
+<li>Python 2.7 End Of Life is coming...</li>
+</ul>
+<h5>
+<a id="user-content-flask" class="anchor" href="#flask" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Flask</h5>
+<p>Flask is suggested in the assigment. Is more straightforward than Django here.</p>
+<h5>
+<a id="user-content-docker" class="anchor" href="#docker" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Docker</h5>
+<p>A few benfits which justify Docker over other solutions here.</p>
+<ul>
+<li>It is easy to set the environment up (a suggested General guideline).</li>
+<li>Containers are lighter than full-fledged VMs (also valid performance point).</li>
+<li>Makes orchestration of different microservices and integration testing easy.</li>
+<li>Scalable (the assignment talks about processing millions of entries).</li>
+<li>Avoids the "Works on my machine" syndrome.</li>
+</ul>
+<h5>
+<a id="user-content-postgresql" class="anchor" href="#postgresql" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>PostgreSQL</h5>
+<p>It is a sound and time-tested DBMS (not a critical element for this assignment).</p>
+<h5>
+<a id="user-content-sqlalchemy" class="anchor" href="#sqlalchemy" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>SQLAlchemy</h5>
+<p>One of the most relied on Python ORMs. Here basically used to sanitise inputs.</p>
+<h5>
+<a id="user-content-gunicorn" class="anchor" href="#gunicorn" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Gunicorn</h5>
+<p>The number of workers or threads per instance should be tunned up for performance.</p>
+<h5>
+<a id="user-content-testdrivenio" class="anchor" href="#testdrivenio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>testdriven.io</h5>
+<p>This project uses a subset of <a href="https://testdriven.io/">testdriven.io</a> (Part 1).
+The main reasons behind it are:</p>
+<ul>
+<li>It uses <em>Python3</em>, <em>Flask</em>, <em>Docker Compose</em>, <em>PostgreSQL</em>, <em>SQLAlchemy</em>.
+They form coherent stack and align well with project requirements (see above).</li>
+<li>The project structure is sound, it defines different environments for test,
+production and development, the files are neatly organised.</li>
+<li>The documentation is clear and modular.</li>
+<li>Reusing such a skeleton makes sense for an assignment of this scope. It saves
+development time and avoids the notorious "reinventing the wheel" anti-pattern.</li>
+<li>Other Parts of testdriven.io are not used because it is well beyond
+what is expected here (even if it showcases React also used at COMPANY or other
+technologies required for the assignment to be production-ready like auth)</li>
+</ul>
+<h4>
+<a id="user-content-performance" class="anchor" href="#performance" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Performance</h4>
+<h5>
+<a id="user-content-disclaimer" class="anchor" href="#disclaimer" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Disclaimer</h5>
+<p>I believe optimisation should be purposeful (not just for optimisation sake).
+There is a famous saying "Premature optimization is the root of all evil".
+I interpret this as a call for prudence. Improvements in performance are often
+gained at the cost of increased complexity. In these cases, a cost-benefit
+analysis may be called for. Not only the current implementation time/resources
+are needed for any optimisation. Maintainability may be seriously compromised.
+This might affect the project success and development pace in the long run.</p>
+<p>Furthermore, within the <a href="https://en.wikipedia.org/wiki/Kano_model">Kano model</a>
+theory, performance could be considered a <em>Must-be</em> quality. A given user
+expects an API call to be responded in 100 ms. A 1000 ms delay may be
+unacceptable for that user. A 10 ms or a 1ms delay will not make a difference.
+If the user can not notice it, optimising beyond 100 ms is wasteful. A real case
+would involve analysing all users within a wide range of percentiles (e.g. 90).
+Then ensuring they are within the limits that would be considered "good enough".</p>
+<p>Having said so, I believe this is not an excuse to write bad code. I just want
+to remark that when it comes to optimistation there is no "silver bullet".
+There are many different valid strategies to apply, but the first one should be
+to set up a benchmark (which is the acceptable response time/memory usage/etc.).
+Then look for bottlenecks and start working on those. A few ideas come to mind:</p>
+<h5>
+<a id="user-content-approach" class="anchor" href="#approach" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Approach</h5>
+<p>When performance is crucial, some values should be set to ensure product quality
+meets the user expected standards. From now on, we assume total correctness.
+Here is a list of possible approaches that could be useful:</p>
+<ol>
+<li>If there already is a service up and running, we could set up a replica using
+the new software which receives a copy of all the calls that are made to the
+production environment. Assuming current usage is representative of expected usage.</li>
+<li>If that is not possible, in a micro-service architecture we could replace one
+single instance of a service with the new version and monitor it closely. The
+overall performance effect should be minimal (considering we have many instances)</li>
+<li>If that is not possible, a staging environment resembling the production one
+as close as possible, could be fed with calls simulating expected usage.</li>
+</ol>
+<h5>
+<a id="user-content-examples" class="anchor" href="#examples" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Examples</h5>
+<p>Depending on where the bottleneck is found a few strategies could be applied:</p>
+<h6>
+<a id="user-content-machine-scaling" class="anchor" href="#machine-scaling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Machine scaling</h6>
+<ul>
+<li>Horizontal scaling (increase the number of instances serving petitions) with a
+loadbalancer distributing the calls.</li>
+<li>Vertical scaling (having faster and more powerful machines).</li>
+</ul>
+<h6>
+<a id="user-content-serving-incoming-petitions" class="anchor" href="#serving-incoming-petitions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Serving incoming petitions</h6>
+<ul>
+<li>Locate machines closer to where calls are being made may reduce response time.</li>
+<li>Use a CDN to host all static files (e.g. CSS).</li>
+<li>Use Round-robin DNS to distribute petitions among the different load-balancers.</li>
+<li>Implement a queue that takes all petitions from load balancers. If there is a
+peak it should prevent petitions from getting lost.</li>
+<li>Rate limit petitions per hour/minute per IP to prevent abuse and affect other
+users.</li>
+</ul>
+<h6>
+<a id="user-content-analysisprofiling" class="anchor" href="#analysisprofiling" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Analysis/profiling</h6>
+<ul>
+<li>Apply machine learning to load/usage/etc. to prevent (or at least forecast)
+usage spikes, know the regions traffic comes from, etc.</li>
+<li>Do the same with errors, abnormal usage, data queries, endpoints called, etc.</li>
+<li>Profile the application usage and optimise (or port to faster compiled languages
+like C or Go) the most critical paths/microservices.</li>
+<li>Consider the use of specialised hardware (e.g. GPUs) is applicable.</li>
+<li>Finetune Gunicorn number of workers or threads per docker instance.</li>
+<li>Find out when docker/machine performance start to deteriorate (e.g. memory
+leaks, allocated resources that garbage collector fails to free, etc.) Restart
+them frequently, before that happens (e.g. every day). With many instances per
+service, restarting 1 by 1 should not affect overall performance.</li>
+<li>Try possible exploits (e.g. sending large payloads on POST endpoints) and
+make the system resilient to them.</li>
+</ul>
+<h6>
+<a id="user-content-database" class="anchor" href="#database" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Database</h6>
+<ul>
+<li>precompute queries (ETL/OLAP)</li>
+<li>cache</li>
+<li>shard</li>
+<li>read replicas</li>
+<li>split/specialise DBs</li>
+<li>connection pools</li>
+<li>benchmark different DBMS</li>
+<li>autoincremental vs UUIDs (may be computed on client, unique among tables...)</li>
+<li>prepared statements</li>
+<li>profile the DB</li>
+<li>review query plans for most common/expensive queries</li>
+<li>etc.</li>
+</ul>
+</article></body></html>

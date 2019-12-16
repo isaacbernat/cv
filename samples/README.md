@@ -2,14 +2,24 @@
 
 Type `git submodule init` and `git submodule update` after cloning the repository to get the latest versions.
 
+**Note:** These samples (especially the older ones) may not accurately reflect my current views and knowledge on specific topics. I wanted to keep them faithful to the original sources instead of updating them. That is because this way they offer a better insight in the way I approach problems and design solutions.
+
+### [reimbursement-system](https://github.com/isaacbernat/cv/tree/master/samples/reimbursement-system)
+- Minimal system for handling reimbursements in health care with a RESTful API.
+- Microservice architecture using dockerised Python and postgreSQL services.
+- Written in late 2017 as a code assignment.
+- The included Readme:
+    - Provides the received instructions.
+    - Describes how to get the project up and running.
+    - Explains assumptions/decisions that shaped the project.
+    - Outlines improvements and further work that could be done.
+
 ### [gae-shorten](https://github.com/isaacbernat/gae-shorten)
-- Under 100 lines of code.
 - Url-shortener implemented using Python and Google App Engine.
-- Written in 2012 as a code assignment.
-- Includes:
-    - problem description
-    - requirements
-    - reasoning behind design-decisions
-    - testing
-    - deployment steps
-    - scalability instructions
+- Under 100 lines of code.
+- Written in mid 2012 as a code assignment.
+- The included Readme provides:
+    - Problem description and requirements.
+    - Reasoning behind design-decisions.
+    - Deployment instructions.
+    - Scalability guidelines.
