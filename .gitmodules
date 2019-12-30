@@ -1,3 +1,6 @@
 [submodule "samples/gae-shorten"]
 	path = samples/gae-shorten
 	url = git@github.com:isaacbernat/gae-shorten.git
+[submodule "samples/docker-pudb"]
+	path = samples/docker-pudb
+	url = git@github.com:isaacbernat/docker-pudb.git

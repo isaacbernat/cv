@@ -23,3 +23,8 @@ Type `git submodule init` and `git submodule update` after cloning the repositor
     - Reasoning behind design-decisions.
     - Deployment instructions.
     - Scalability guidelines.
+
+### [docker-pudb](https://github.com/isaacbernat/docker-pudb)
+- Minimal example to debug Python code remotely, within a Docker container using pudb.
+- 15 lines of code.
+- Written in mid 2018 during a "hack day".
