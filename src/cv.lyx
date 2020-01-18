@@ -15,7 +15,7 @@
 
 \firstname{Isaac}
 \familyname{Bernat}
-\title{Full-stack engineer}
+\title{Software engineer}
 \address{Latest cv + code samples: \\ \texttt{\textup{\href{https://github.com/isaacbernat/cv/raw/master/cv.pdf}{github.com/isaacbernat/cv}}} \\[1em] \href{https://youtu.be/asZ0SDTKqvM}{PyCon Sweden 2019 talk:}\\ \texttt{\textup{\href{https://youtu.be/asZ0SDTKqvM}{youtu.be/asZ0SDTKqvM}}} \\[1em] Nationality: Spanish\\}{Stockholm, Sweden}
 
 \photo[64pt]{portrait.png}
