@@ -7,7 +7,7 @@ Type `git submodule init` and `git submodule update` after cloning the repositor
 ### [reimbursement-system](https://github.com/isaacbernat/cv/tree/master/samples/reimbursement-system)
 - Minimal system for handling reimbursements in health care with a RESTful API.
 - Microservice architecture using dockerised Python and postgreSQL services.
-- Written in late 2017 as a code assignment.
+- Written in **late 2017** as a code assignment.
 - The included Readme:
     - Provides the received instructions.
     - Describes how to get the project up and running.
@@ -17,7 +17,7 @@ Type `git submodule init` and `git submodule update` after cloning the repositor
 ### [gae-shorten](https://github.com/isaacbernat/gae-shorten)
 - Url-shortener implemented using Python and Google App Engine.
 - Under 100 lines of code.
-- Written in mid 2012 as a code assignment.
+- Written in **mid 2012** as a code assignment.
 - The included Readme provides:
     - Problem description and requirements.
     - Reasoning behind design-decisions.
@@ -27,4 +27,4 @@ Type `git submodule init` and `git submodule update` after cloning the repositor
 ### [docker-pudb](https://github.com/isaacbernat/docker-pudb)
 - Minimal example to debug Python code remotely, within a Docker container using pudb.
 - 15 lines of code.
-- Written in mid 2018 during a "hack day".
+- Written in **mid 2018** during a "hack day".
