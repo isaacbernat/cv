@@ -6,7 +6,7 @@ Type `git submodule init` and `git submodule update` after cloning the repositor
 
 ### [reimbursement-system](https://github.com/isaacbernat/cv/tree/master/samples/reimbursement-system)
 - Minimal system for handling reimbursements in health care with a RESTful API.
-- Microservice architecture using dockerised Python and postgreSQL services.
+- Microservice architecture using dockerised Python and PostgreSQL services.
 - Written in **late 2017** as a code assignment.
 - The included Readme:
     - Provides the received instructions.
@@ -28,3 +28,8 @@ Type `git submodule init` and `git submodule update` after cloning the repositor
 - Minimal example to debug Python code remotely, within a Docker container using pudb.
 - 15 lines of code.
 - Written in **mid 2018** during a "hack day".
+
+### [tinymem](https://github.com/isaacbernat/tinymem)
+- Thumby game in MicroPython which uses audio, buttons and sprites.
+- Under 50 lines of code.
+- Written mostly **late 2021** in a weekend.
