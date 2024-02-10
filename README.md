@@ -6,7 +6,7 @@
 - A [1-page PDF](https://github.com/isaacbernat/cv/raw/master/cv.pdf) with my CV/résumé.
 - Additional [certificates and diplomas](https://github.com/isaacbernat/cv/tree/master/certificates).
 - [Code samples](https://github.com/isaacbernat/cv/tree/master/samples) of self-contained projects.
-- [Source files](https://github.com/isaacbernat/cv/tree/master/src) to generate the PDF in [overleaf](https://www.overleaf.com/project/63c1d75bea8bc821df6f52d9).
+- [Source files](https://github.com/isaacbernat/cv/tree/master/src) to generate the PDF in Overleaf.
 
 ### [From +1 Billion years to less than 1 second](https://github.com/isaacbernat/presentations/tree/master/optimise)
 
