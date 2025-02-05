@@ -4,3 +4,6 @@
 [submodule "samples/docker-pudb"]
 	path = samples/docker-pudb
 	url = git@github.com:isaacbernat/docker-pudb.git
+[submodule "samples/tinymem"]
+	path = samples/tinymem
+	url = git@github.com:isaacbernat/tinymem.git
