@@ -14,4 +14,4 @@ Presentation on the topic of code optimisation given at [PyCon Sweden 2019](http
 [![YouTube link to the talk](https://raw.githubusercontent.com/isaacbernat/presentations/master/optimise/images/video_preview_with_play_button.png "YouTube link to the talk")](https://youtu.be/asZ0SDTKqvM)
 
 ### CV preview
-[![CV preview](https://github.com/isaacbernat/cv/blob/master/src/cv.png)](https://github.com/isaacbernat/cv/blob/master/cv.pdf)
+[![CV preview](https://github.com/isaacbernat/cv/blob/master/src/cv.webp)](https://github.com/isaacbernat/cv/blob/master/cv.pdf)
