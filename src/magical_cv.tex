@@ -1,11 +1,9 @@
 \documentclass[a4paper]{MagicalCV}
-% template based on https://github.com/themagicalmammal/Resume/tree/MagicalCV rendered in Overleaf
-
+% template based on https://github.com/themagicalmammal/Resume/tree/MagicalCV
 
 \newcommand{\cveventwide}[2]{
   {\small\makebox[0.5\linewidth][l]{\faCalendar \hspace{0.5em}#1}%
   \ifstrequal{#2}{}{}{\makebox[0.5\linewidth][l]{\hspace{0.5em}\hfill#2}}\par}}
-
 
 % Removing page numbers
 \usepackage{fancyhdr}
@@ -16,13 +14,13 @@
 
 % Defining your colors
 \definecolor{VividEmerald}{HTML}{046307}
-\definecolor{VividPurple}{HTML}{3E0097}
-\definecolor{SlateGrey}{HTML}{2E2E2E}
-\definecolor{LightGrey}{HTML}{666666}
+% \definecolor{VividPurple}{HTML}{3E0097}
+% \definecolor{SlateGrey}{HTML}{2E2E2E}
+% \definecolor{LightGrey}{HTML}{666666}
 \colorlet{heading}{VividEmerald}
 \colorlet{accent}{VividEmerald}
-\colorlet{emphasis}{SlateGrey}
-\colorlet{body}{LightGrey}
+% \colorlet{emphasis}{SlateGrey}
+% \colorlet{body}{LightGrey}
 
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
@@ -41,14 +39,16 @@
 \lastupdated
 
 % Title name
-\namesection{Isaac}{Bernat}{
 
-\github{GitHub} \href{https://github.com/isaacbernat/cv}{\bf isaacbernat/cv}
-\null\hfill
-{ Email: \href{mailto:cv@isaacbernat.com}{cv@isaacbernat.com}}
- \null\hfill
-\linkedin{Linkedin} \href{https://www.linkedin.com/in/isaacbernat/}{\bf isaacbernat}
- }
+% Replace your entire \namesection block with this
+\namesection{Isaac}{Bernat}{
+    \website{Email:} {\bf cv@isaacbernat.com}\null\hfill
+    % \website{Portfolio:} \href{https://www.isaacbernat.com/cv}{\bf isaacbernat.com/cv}\null\hfill
+    % \acvHeaderSocialSep
+    \linkedin{Linkedin} \href{https://www.linkedin.com/in/isaacbernat/}{\bf in/isaacbernat} \null\hfill
+    % \acvHeaderSocialSep
+    \github{GitHub} \href{https://github.com/isaacbernat}{\bf isaacbernat} % \null\hfill
+}
 
 % Column one
 \begin{minipage}[t]{0.33\textwidth}
@@ -56,17 +56,17 @@
 % Achievements
 \cvsection{Achievements}
 \sectionsep
-\subsection{Subscription model}
+\subsection{Subscription Founding}
 \begin{tightemize}
 \item {\bf Lead architect}: scaled 2022-03.
 \item Represents {\bf 59.3\% GMV} by Q4 2022.
 \item {\bf LTV: } {\bf +41\% } YoY in Q2 2022.
 \item {\bf ltv/cac: } 1.4x $\rightarrow$ 3.0x in 4 months.
-\item {\bf A/B test: } Longest-running so far.
+% \item {\bf A/B test: } Longest-running so far.
 \end{tightemize}
 \sectionsep
 
-\subsection{Best 2023 experiment}
+\subsection{Subscription Growth}
 \begin{tightemize}
 \item {\bf GM}: {\bf +3\% } global Gross Margin.
 \item {\bf A/B test:} best out of 215 launched.
@@ -76,7 +76,7 @@
 \end{tightemize}
 \sectionsep
 
-\subsection{Q\&A page, blog}
+\subsection{Growth Engineering}
 \begin{tightemize}
 \item {\bf A/B tests: } Q3, Q4 2020.
 \item {\bf Blog: } +300\% NPCs.
@@ -85,67 +85,73 @@
 \end{tightemize}
 \sectionsep
 
-\subsection{1-day improvements}
+\subsection{Strategic Quick Wins}
 \begin{tightemize}
-\item {\bf Cost control: } Avoid running unnecessary tests (\$31k/yr) - Jun 2022
+\item {\bf Cost control: } Avoid running ignored tests (\$31k/yr) - June 2022.
 \item {\bf Hero page: } Phone user on mobile version (+27\% GMV, +20\% hours).
 
 \end{tightemize}
 \sectionsep
 
+\subsection{CI/CD \& Dev Tooling}
+\begin{tightemize}
+\item {\bf Homepage:} Built custom SSG \& CI/CD pipeline with GitHub Actions.
+\item {\bf Opsweb:} Architected internal deploy system for 50+ microservices.
 
-% Education
-\cvsection{Education}
-\sectionsep
 
-\descript { M.Sc. Thesis in Informatics}
-\cvevent{Dec 2011}{\hspace*{-1.3cm} {\bf NTNU} \hspace*{0.2cm} Trondheim, Norway}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-% \begin{tightemize}
-% \item \href{https://ntnuopen.ntnu.no/ntnu-xmlui/handle/11250/252845}{\bf TDCM}: Evaluation of Test-Driven Conceptual Modelling.
-% \item \href{https://web.archive.org/web/20120806062556/http://www.fib.upc.edu/fib/noticies.html?id=42dccc0a-d955-4bea-9c8e-94b89a95233e}{\bf Grade}: A with Highest Honours.
+\end{tightemize}
+% \sectionsep
 
-% \end{tightemize}
-\sectionsep
-\descript{BE in Informatics}
-\cvevent{2006-2011}{\hspace*{-1.0cm}{\bf UPC} \hspace*{0.2cm} Barcelona, Spain}
-\sectionsep
 
-% Languages
-\cvsection{Languages} \\
-\sectionsep
+\cvsection{Education \& Languages}
+\descript{M.Sc. Informatics Engineering}
 
-\textbf{Native: } Catalan, Spanish. \\
-\textbf{Proficient: } English (Cambridge, C2). \\
-\textbf{Basic (A2): } Swedish, Norwegian.\\
-\sectionsep
+\textcolor{gray}{\fontsize{10pt}{12pt}\selectfont 2006 - 2011}
+\hfill
+\descript{UPC \& NTNU}
+
+
+% \cvevent{2006 -- 2011}{UPC \& NTNU}
+\begin{tightemize}
+    \item {\bf Thesis awarded Highest Honours} by both institutions.
+    \item {\bf Languages:} English (C2), Catalan/Spanish (Native).
+\end{tightemize}
+% \sectionsep
+
+
 
 % Skills
-\cvsection{Backend skills}
+\cvsection{Core Competencies}
 \sectionsep
-\subsection{Python}
+\subsection{Languages \& Databases}
 \begin{tightemize}
-\item {\bf Pycon SE} speaker (2014, 2019). % (https://youtu.be/asZ0SDTKqvM)
-\item +30 {\bf microservices}.
-\item 3 {\bf Monoliths} (incl. Django).
-\item {\bf Scrapping}: +50 sites (scrapy).
-\item pytest \textbullet{} PEP8 \textbullet{} ipdb \textbullet{} black...
+\item {\bf Primary:} Python, Go.
+\item {\bf Databases:} PostgreSQL, MySQL, Redshift.
+\item {\bf Ancillary:} C++, JavaScript.
 \end{tightemize}
-\sectionsep
 \sectionsep
 
-\subsection{Other}
+\subsection{System Design}
 \begin{tightemize}
-\item {\bf GO}: 12 microservices.
-\item {\bf Techs}: PostgreSQL \textbullet{} Unix-like \textbullet{} REST \textbullet{} Git \textbullet{} MySQL \textbullet{} Docker \textbullet{}
- GraphQL \textbullet{} AWS \textbullet{} test \textbullet{} async \textbullet{} ETL \textbullet{} DWH \textbullet{} debug \textbullet{} C++ \textbullet{} I/O \textbullet{} profiling \textbullet{} uuid \textbullet{} APIs ...
-\item {\bf Optimise}: $10^{18}$x speedup.
+\item Microservices, Monoliths, REST, GraphQL, System Design Docs.
 \end{tightemize}
+\sectionsep
+
+\subsection{Tools \& Practices}
+\begin{tightemize}
+\item {\bf DevOps:} AWS, Docker, CI/CD, GitHub Actions.
+\item {\bf AI-Assisted Dev:} GitHub Copilot, Cursor, Kiro.dev.
+\item {\bf Practices:} A/B Testing, TDD, Incident Management.
+\item {\bf Public Speaking:} 2x PyCon SE.
+\end{tightemize}
+\sectionsep
+
 
 % Column two
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.66\textwidth}
+
 
 % Experience
 \cvsection{Experience}
@@ -157,32 +163,30 @@
 \hfill
 \descript{Barcelona, Spain}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
+
 \begin{tightemize}
-\item {\bf Dev w. AI/LLM:} see \href{https://github.com/isaacbernat}{GitHub}
-(\href{https://github.com/isaacbernat/netflix-to-srt}{netflix-to-srt}, 
-\href{https://github.com/isaacbernat/homepage}{homepage}, \href{https://github.com/isaacbernat/basepaint-media}{basepaint} ...)
+\item {\bf Focused on AI Engineering \& System Design;} production-grade design docs \& maintaining popular OSS tools (800+ stars).
 \end{tightemize}
 
 \sectionsep
 \sectionsep
 \sectionsep
-
 
 \runsubsection{Preply.com}
 \textcolor{gray}{\fontsize{10pt}{12pt}\selectfont Mar 2020 - Jul 2024}
 \hfill
 \descript{Barcelona, Spain}
-\cveventwide{Jun 2022 – Aug 2024}{Senior Backend Engineer I (P7)}
+\cveventwide{Jun 2022 – Aug 2024}{Staff-Equivalent Backend Engineer}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 
-\item {\bf Incidents:} command, scribe, mitigate and help fix 15+ up to SEV2. Presented postmortems, including those caused by other teams.
+\item {\bf Tech Leadership:} Acted as a trusted advisor, lead 15+ incident responses, drove postmortems to improve eng-wide policy and provided strategic foresight that saved thousands of dev hours.
 \item {\bf Subscription events:} enabled data teams to track state transitions.
-\item {\bf Yearly subscriptions:} implemented multiple periods and policies.
+\item {\bf Cross-Functional Lead:} Coordinated with Product/Data/CRM teams to ensure business alignment with high-stakes experiments.
 \item {\bf Group lessons:} lead backend and handover project to new team.
 \end{tightemize}
 
-\cveventwide{Mar 2020 – Jun 2022}{Backend Engineer III (P6)}
+\cveventwide{Mar 2020 – Jun 2022}{Senior Backend Engineer}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item {\bf Subscriptions:} transition a package-only company:
@@ -236,41 +240,24 @@
 \sectionsep
 \sectionsep
 
+
 \runsubsection{Wrapp.com}
 \textcolor{gray}{\fontsize{10pt}{12pt}\selectfont Oct 2012 - Jun 2016}
 \hfill
 \descript{Stockholm, Sweden}
-\cveventwide{Sep 2014 – Jun 2016}{Fullstack Engineer}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
+
+\cveventwide{Sep 2014 – Jun 2016}{Tech Lead \& Founding Engineer (2.0 Pivot)}
+\vspace{\topsep}
 \begin{tightemize}
-\item {\bf Opsweb:} built web-based AWS deploy system - Dart, Sass and Jade.
-\item {\bf Wrappmin:} merchant tool (map transactions, create offers) in React.
+    \item {\bf Architected 'Opsweb':} Led development of a critical internal deployment system for 50+ microservices on AWS.
+    \item {\bf Microservice Ownership:} Maintained core backend services in both Go and Python during the company's pivot.
 \end{tightemize}
 
-\cveventwide{Dec 2013 – Sep 2014}{Data Engineer}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\cveventwide{Oct 2012 – Sep 2014}{Early Engineer (Backend, Data, Frontend)}
+\vspace{\topsep}
 \begin{tightemize}
-\item {\bf Data Warehouse:} designed and optimised ETL pipeline for Redshift.
-\item {\bf Wrapport:} delivered reports and features with in-house CRM.
-\item {\bf Dashboards:} updated real-time, with business and system KPIs.
-\end{tightemize}
-
-\cveventwide{Mar 2013 – Dec 2013}{Frontend Engineer}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item {\bf Email service:} built framework for pre-flighted design supporting:
-\begin{tightemize}
-\item {\it A/B test:} subjects, preheader-text, images, conditional render...
-\item {\it Compatibility:} +1M weekly newsletters to diverse clients/devices.
-\end{tightemize}
-\item {\bf Web client:} landing pages, Wrapp 1.0 web app...
-\end{tightemize}
-
-\cveventwide{Oct 2012 – Mar 2013}{Backend Engineer}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item {\bf News service:} in-memory (testing), MySQL (production) backends.
-\item {\bf Recommender System:} architected and implemented from scratch.
+    \item {\bf Engineered from Scratch:} Built the company's first content recommender system and A/B testing email framework (1M+ sends per week).
+    \item {\bf Owned Redshift ETL Pipeline:} Architected and optimized the core data warehouse for business intelligence.
 \end{tightemize}
 \sectionsep
 \sectionsep

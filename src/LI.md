@@ -41,7 +41,7 @@ View my work from this period: isaacbernat.com/cv
 ```
 
 #### **Preply**
-**Title:** `Staff-Equivalent Backend Engineer (P7)`
+**Title:** `Staff-Equivalent Backend Engineer`
 **Dates:** `Jun 2022 – Jul 2024`
 
 ```
@@ -54,7 +54,7 @@ I shaped the technical roadmap and led initiatives that directly influenced the 
 - Proactive Ownership: Identified and led the mitigation of critical bugs outside my team's domain, including a flaw that cost over $21k per week and a task that spammed our queue with over 1M executions per hour.
 ```
 
-**Title:** `Senior Backend Engineer (P6)`
+**Title:** `Senior Backend Engineer`
 **Dates:** `Mar 2020 – Jun 2022`
 
 ```
@@ -113,8 +113,9 @@ Assumed a dual leadership role in a medium-sized enterprise, driving both techno
 """
 
 #### **Wrapp**
-**Title:** `Fullstack Engineer (Tech Lead)`
+**Title:** `Tech Lead & Founding Engineer (2.0 Pivot)`
 **Dates:** `Sep 2014 – Jun 2016`
+
 
 ```
 As a Tech Lead during the company's pivot to "Wrapp 2.0", I helped guide the technical transformation from a legacy Python 2.7/Twisted monolith to a modern Go/Python 3 microservice architecture.
@@ -126,7 +127,7 @@ As a Tech Lead during the company's pivot to "Wrapp 2.0", I helped guide the tec
 - Technical Communication: Selected to speak at the inaugural PyCon Sweden 2014, presenting a talk on building custom developer tooling. See github.com/isaacbernat/pycrastinate
 ```
 
-**Title:** `Backend / Data / Frontend Engineer`
+**Title:** `Early Engineer (Backend, Data, Frontend)`
 **Dates:** `Oct 2012 – Sep 2014`
 
 ```
