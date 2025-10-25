@@ -7,7 +7,7 @@ The primary, interactive version of Isaac Bernat's CV, complete with **[Case Stu
 ### This repository contains:
 - [Code and System Design samples](https://github.com/isaacbernat/cv/tree/master/samples).
 - [Certificates and Diplomas](https://github.com/isaacbernat/cv/tree/master/certificates).
-- [Source files](https://github.com/isaacbernat/cv/tree/master/src) to generate an abridged [1-page PDF résumé](https://www.isaacbernat.com/assets/cv.pdf).
+- [Source files](https://github.com/isaacbernat/cv/tree/master/src) to generate an abridged [2-page PDF résumé](https://www.isaacbernat.com/assets/Isaac_Bernat_CV.pdf).
 
 ### Prefer watching a presentation?
 

@@ -1,0 +1,411 @@
+%-------------------------
+% Resume in Latex
+% Author : based on Jake Gutierrez Jake's Resume (Anonymous)
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+% \documentclass[letterpaper,11pt]{article}
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+
+\usepackage{enumitem} % For more control over lists
+\usepackage{textcomp}
+\usepackage{amsmath}
+\usepackage{bm}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+\usepackage{charter}
+
+
+
+% In your preamble, define a grey color
+\usepackage{xcolor}
+\definecolor{grey}{rgb}{0.5, 0.5, 0.5}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+
+% --- FINAL, CORRECTED CUSTOM COMMAND ---
+\newcommand{\resumeSubheadingSingleLine}[4]{
+  \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{#2} \\
+      \if\relax\detokenize{#3}\relax\else
+        \textit{\small#3} & \textit{\small #4} \\
+      \fi
+    \end{tabular*}
+    \vspace{-2pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+        \large{#1} & \textit{#2} \\
+    \end{tabular*}
+}
+
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\noindent\textcolor{grey}{\small\hfill Last Updated: \today}
+\vspace{-1em} % Negative space to pull the next section up a bit
+
+\begin{center}
+    {\Huge \scshape Isaac Bernat} \\ \vspace{1pt}
+    \small 
+    \href{https://www.isaacbernat.com/cv}{\raisebox{-0.1\height}\faLink\ \textbf{Portfolio:} \underline{isaacbernat.com/cv}} ~ \textbullet ~
+    \href{mailto:cv@isaacbernat.com}{\raisebox{-0.1\height}\faEnvelope\ 
+    % \textbf{Email:}
+    \underline{cv@isaacbernat.com}} ~ \textbullet ~
+    \href{https://linkedin.com/in/isaacbernat}{\raisebox{-0.1\height}\faLinkedin\ \textbf{LinkedIn:} \underline{/in/isaacbernat}} ~ \textbullet ~
+    \href{https://github.com/isaacbernat}{\raisebox{-0.1\height}\faGithub\ \textbf{GitHub:} \underline{/isaacbernat}}
+    \vspace{-8pt}
+\end{center}
+
+
+%----------------------------------------------------------------------------------------
+%   PROFESSIONAL SUMMARY
+% %----------------------------------------------------------------------------------------
+% \vspace{0.5em}
+% \begin{center}
+%     \begin{minipage}{0.8\textwidth}
+%         \small \textit{Staff Software Engineer with 12+ years of experience specializing in backend systems, architecture, and product strategy. Proven track record of leading high-impact initiatives that drive significant business results, including delivering a \textbf{+3\% global Gross Margin lift} and architecting systems instrumental in securing a \textbf{Series C funding round}.}
+%     \end{minipage}
+% \end{center}
+% \vspace{-0.5em}
+
+
+\vspace{0.2em} % Slightly reduced top margin
+\begin{center}
+    \begin{minipage}{0.85\textwidth} % Slightly wider container
+        \small \textit{Staff Software Engineer with 12+ years of experience in backend systems, architecture and product strategy. A proven leader of high-impact initiatives, delivering a \textbf{+3\% global Gross Margin lift} and architecting the core subscription platform that secured a \textbf{Series C funding round}.}
+    \end{minipage}
+\end{center}
+\vspace{-0.7em} % Slightly more negative bottom margin
+
+
+%-----------EXPERIENCE-----------
+\section{Professional Experience}
+\begin{itemize}[leftmargin=*, topsep=0pt, partopsep=0pt, itemsep=1em, parsep=0pt] % Main experience list
+
+\item % Independent Sabbatical
+    \textbf{Independent Professional Development} \hfill \textit{Aug 2024 – Present} \\
+    \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=2pt]
+        \item Authored a production-level system design for a heuristic-based Spam Classification Engine.
+        \item Developed open-source tools, including a Python/LLM data pipeline and `netflix-to-srt` (\textbf{\faStar\ 800+}).
+    \end{itemize}
+\end{itemize}
+
+\vspace{0.5em} % Add a bit of space between job entries
+\noindent % Prevents any weird indentation
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r}
+    \textbf{\Large Preply} & \textit{Mar 2020 – Jul 2024} & \textbf{Barcelona, Spain (Remote)} \\
+\end{tabular*}
+
+\begin{itemize}[leftmargin=*, topsep=4pt, partopsep=0pt, itemsep=8pt, parsep=0pt] % Roles within Preply
+    \item \textbf{Staff Backend Engineer} \hfill \textit{Jun 2022 – Jul 2024}
+        \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
+                \item Drove the company's \#1 most impactful initiative of 2023 (out of 215 A/B tests), delivering a \textbf{+3\% global Gross Margin lift} by overhauling subscription cancellation and pause policies.
+                \begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+                    \item[] \href{https://www.isaacbernat.com/cv#casestudy-postpone-billing}{\textit{\small \faArrowCircleRight\ Case Study: Strategy \& Data-Driven Decision Making}}
+                    \end{itemize}
+                \item Acted as a strategic technical advisor, identifying critical risks in a major initiative and advocating for a phased approach that mitigated over \textbf{10,000 hours} in potential wasted development.
+                \item Exhibited cross-domain ownership by identifying and leading the mitigation of critical production bugs outside my team's direct responsibility, including:
+                    \begin{itemize}[leftmargin=1em, topsep=2pt, itemsep=0pt]
+                        \item[\textbullet] A promotions bug costing over \textbf{\$21,000 USD per week}.
+                        \item[\textbullet] A runaway Celery task executing over \textbf{1 million times per hour}.
+                    \end{itemize}
+            \end{itemize}
+        
+        \item \textbf{Senior Backend Engineer} \hfill \textit{Mar 2020 – Jun 2022}
+            \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
+                \item Served as the founding backend architect for the Subscription MVP, leading the technical transition to a recurring revenue system. This work was instrumental in securing a \textbf{Series C funding round}, delivering a \textbf{+41\% YoY increase in LTV} and improving the \textbf{LTV-to-CAC ratio from 1.4x to 3.0x}.
+                    \begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+                    \item[] \href{https://www.isaacbernat.com/cv#casestudy-subscription-model}{\textit{\small \faArrowCircleRight\ Case Study: MVP Architecture & Product Strategy}}
+                    \end{itemize}                    
+                \item Commanded 15+ production incidents and used the post-mortem from a critical SEV-2 to establish a mandatory, company-wide policy on pre-launch monitoring and observability.
+                    \begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+                    \item[] \href{https://www.isaacbernat.com/cv#casestudy-incident-74}{\textit{\small \faArrowCircleRight\ Case Study: Incident Retrospective \& Key Learnings}}
+                    \end{itemize}
+                \item Led the backend migration of a high-traffic (1M+ MAU) application to a GraphQL API, improving page load times by \textbf{\textgreater85\%} and unblocking A/B tests that resulted in an \textbf{+800\% CVR increase}.
+            \end{itemize}
+    \end{itemize}
+
+% --- Ivbar Institute ---
+\vspace{0.5em} % Add a bit of space between job entries
+\noindent % Prevents any weird indentation
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r}
+    \textbf{\Large Ivbar Institute} & \textit{Mar 2018 – Mar 2020} & \textbf{Stockholm, Sweden} \\
+\end{tabular*}
+
+\begin{itemize}[leftmargin=*, topsep=4pt, partopsep=0pt, itemsep=8pt, parsep=0pt] % Roles within Ivbar
+    \item \textbf{Fullstack Engineer} \hfill \textit{Jan 2019 – Mar 2020}
+        \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
+            \item Selected to speak at \textbf{PyCon Sweden 2019}, where I presented a deep-dive on code optimization that demonstrated a 
+            {\boldmath\textbf{$>10^{18}$x performance improvement}}.
+            
+            \item Engineered the UI for complex medical case-mix decision trees, empowering healthcare professionals to better analyze treatment pathways.
+        \end{itemize}
+    
+    \item \textbf{Backend Engineer} \hfill \textit{Mar 2018 – Jan 2019}
+        \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
+            \item Architected the core data processing engine for the Swedish National Quality Registry for Breast Cancer (NKBC), enabling nationwide analysis of treatment outcomes.
+            \item Implemented MECE-compliant privacy filters to ensure patient k-anonymity in highly sensitive medical datasets, a critical requirement for ethical data handling.
+        \end{itemize}
+\end{itemize}
+
+% --- Productos Aditivos ---
+\vspace{0.5em}
+\noindent
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{\Large Productos Aditivos} & \textbf{Montcada, Spain} \\
+\end{tabular*}
+\begin{itemize}[leftmargin=*, topsep=4pt, partopsep=0pt, itemsep=2pt, parsep=0pt]
+    \item \textbf{CTO \& CFO} \hfill \textit{Jun 2016 – Jan 2018}
+        \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
+            \item Drove technology modernization and financial optimization, securing over \textbf{€64,000 in savings} by renegotiating commercial loans and rectifying payroll errors.
+            \item Oversaw a critical ERP migration and directed the company-wide transition to the Spanish SII real-time tax reporting system.
+        \end{itemize}
+\end{itemize}
+
+
+
+
+\vspace*{1.5em} 
+
+
+
+
+% --- Wrapp ---
+\vspace{0.5em} % Add a bit of space between job entries
+\noindent % Prevents any weird indentation
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r}
+    \textbf{\Large Wrapp} & \textit{Oct 2012 – Jun 2016} & \textbf{Stockholm, Sweden} \\
+\end{tabular*}
+
+\begin{itemize}[leftmargin=*, topsep=4pt, partopsep=0pt, itemsep=8pt, parsep=0pt] % Roles within Wrapp
+    \item \textbf{Tech Lead} \hfill \textit{Sep 2014 – Jun 2016}
+        \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
+            \item Guided the company’s technical pivot from a Python 2.7/Twisted monolith to a modern \textbf{Go/Python 3 microservice architecture}.
+            \item Architected and built "Opsweb," a mission-critical internal deployment system for managing canary releases of our \textbf{50+ microservices} to AWS.
+        \end{itemize}
+    
+    \item \textbf{Early Engineer (Backend, Data, Frontend)} \hfill \textit{Oct 2012 – Sep 2014}
+        \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
+            \item Engineered core systems from scratch, including the company's first content recommendation engine and an A/B testing email framework which served \textbf{1M+ weekly newsletters}.
+            \item Selected to speak at the inaugural \textbf{PyCon Sweden} on building developer tooling.
+        \end{itemize}
+\end{itemize}
+
+% --- FXstreet.com ---
+\vspace{0.5em}
+\noindent
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+    \textbf{\Large FXstreet.com} & \textbf{Barcelona, Spain} \\
+\end{tabular*}
+\begin{itemize}[leftmargin=*, topsep=4pt, partopsep=0pt, itemsep=2pt, parsep=0pt]
+    \item \textbf{Software Developer} \hfill \textit{Feb 2012 – Jul 2012}
+        \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
+            \item Contributed to a high-traffic C\#/.NET financial news portal, handling complex internationalization (i18n) challenges across \textbf{17 languages}.
+        \end{itemize}
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%   KEY PROJECTS & PRESENTATIONS
+%----------------------------------------------------------------------------------------
+\vspace{0.5em plus 0.3em minus 0.2em}
+
+
+
+
+\section{Key Projects \& Presentations}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{System Design: Heuristic-based Spam Classifier}}{}
+        \resumeItemListStart
+            \resumeItem{Authored a production-level technical design for a proof-of-concept spam classifier, demonstrating a pragmatic approach to building new features within legacy ecosystems.
+                \begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+                    \item[] \href{https://www.isaacbernat.com/cv#system-design}{\textit{\small \faArrowCircleRight\ Link: Full Design Document}}
+                \end{itemize}
+            }
+        \resumeItemListEnd
+
+    \resumeProjectHeading
+        {\textbf{PyCon Sweden 2019: From \textgreater1 Billion Years to \textless1 Second}}{}
+        \resumeItemListStart
+            \resumeItem{Presented a deep-dive on iterative code optimization techniques, showcasing a 
+            {\boldmath\textbf{$>10^{18}$x performance improvement}} with comparisons between Python, PyPy and C++.
+\begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+    \item[] \href{https://youtu.be/asZ0SDTKqvM}{\textit{\small \faYoutube\ Link: Full Talk on YouTube}}
+\end{itemize}
+            }
+        \resumeItemListEnd
+        
+    \resumeProjectHeading
+        {\textbf{Open Source: netflix-to-srt}}{}
+        \resumeItemListStart
+            \resumeItem{Creator and maintainer of a popular open-source tool with \textbf{\faStar\ 800+ on GitHub} that solves a common community need for converting subtitle formats.
+                \begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+                    \item[] \href{https://github.com/isaacbernat/netflix-to-srt/}{\textit{\small \faGithub\ Link: Project Repository}}
+                \end{itemize}
+            }
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%----------------------------------------------------------------------------------------
+%   SKILLS
+%----------------------------------------------------------------------------------------
+\vspace{0.5em plus 0.3em minus 0.2em}
+
+\section{Core Competencies}
+\begin{itemize}[leftmargin=0.05in, label={}]
+    \small{\item{
+        \textbf{Programming Languages:}{ \hfill Python (Expert), Go, SQL, JavaScript, C++} \\
+        \textbf{Platforms \& Databases:}{ \hfill AWS, PostgreSQL, Docker, Git, MySQL, Redshift} \\
+        \textbf{Architecture \& Systems:}{ \hfill System Design, Backend Development, REST APIs, GraphQL, Performance Optimization} \\
+        \textbf{Practices \& Methodologies:}{ \hfill A/B Testing, TDD, Product Strategy, Incident Management, AI-Assisted Development} \\
+    }}
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%   EDUCATION & LANGUAGES
+%----------------------------------------------------------------------------------------
+\vspace{0.5em plus 0.3em minus 0.2em}
+
+
+\section{Education \& Languages}
+\resumeSubHeadingListStart
+    \resumeSubheadingSingleLine % This will now work
+        {M.Sc. in Informatics Engineering, \textbf{Highest Honours}}{2006 – 2011}
+        {Universitat Politècnica de Catalunya (UPC) \& NTNU}{Barcelona, Spain \& Trondheim, Norway}
+        \resumeItemListStart
+            \resumeItem{Master's Thesis on Test-Driven Conceptual Modelling conducted at the Norwegian University of Science and Technology (NTNU) as part of the ERASMUS programme.}
+            \resumeItem{Awarded the highest possible grade (A with Highest Honours) from both institutions.}
+        \resumeItemListEnd
+
+    \vspace{0.5em}
+    \resumeSubheadingSingleLine % This will also now work
+        {Languages}{}
+        {}{}
+        \vspace{-1em}
+        \resumeItemListStart
+            \resumeItem{\textbf{Native:} Catalan, Spanish \textbullet\ \textbf{Full Professional Proficiency:} English (C2) \textbullet\ \textbf{Elementary:} Swedish}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\vspace*{1.5em} 
+
+\end{document}
