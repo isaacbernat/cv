@@ -272,30 +272,25 @@
 
 
 
-
-\vspace*{1.5em} 
-
-
-
-
 % --- Wrapp ---
-\vspace{0.5em} % Add a bit of space between job entries
-\noindent % Prevents any weird indentation
+\vspace{0.5em}
+\noindent
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r}
     \textbf{\Large Wrapp} & \textit{Oct 2012 – Jun 2016} & \textbf{Stockholm, Sweden} \\
 \end{tabular*}
-
-\begin{itemize}[leftmargin=*, topsep=4pt, partopsep=0pt, itemsep=8pt, parsep=0pt] % Roles within Wrapp
+\begin{itemize}[leftmargin=*, topsep=4pt, partopsep=0pt, itemsep=8pt, parsep=0pt]
     \item \textbf{Tech Lead} \hfill \textit{Sep 2014 – Jun 2016}
         \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
-            \item Guided the company’s technical pivot from a Python 2.7/Twisted monolith to a modern \textbf{Go/Python 3 microservice architecture}.
-            \item Architected and built "Opsweb," a mission-critical internal deployment system for managing canary releases of our \textbf{50+ microservices} to AWS.
+            \item As a technical leader for the company's "2.0" pivot, guided the architectural transition from a monolith to a distributed system of \textbf{50+ microservices} in Go and Python.
+            \item Owned and maintained two of the most critical backend services: `users` (Python) and `offers` (Go). As maintainer of the `offers` service, I was responsible for code quality and architectural consistency across \textbf{1,200+ commits} from 12 contributors.
+            \item Architected and built "Opsweb", a mission-critical internal deployment system for managing canary releases, directly improving developer experience and stability.
         \end{itemize}
     
     \item \textbf{Early Engineer (Backend, Data, Frontend)} \hfill \textit{Oct 2012 – Sep 2014}
         \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
-            \item Engineered core systems from scratch, including the company's first content recommendation engine and an A/B testing email framework which served \textbf{1M+ weekly newsletters}.
-            \item Selected to speak at the inaugural \textbf{PyCon Sweden} on building developer tooling.
+            \item Engineered foundational data systems, including the company's first content recommendation engine and a high-volume ETL pipeline for our Redshift data warehouse.
+            \item Selected to speak at the inaugural \textbf{PyCon Sweden} on building developer tooling, demonstrating an early passion for improving the developer lifecycle.
+            \item Collaborated effectively in an asynchronous environment with teams in Stockholm and San Francisco.
         \end{itemize}
 \end{itemize}
 
@@ -316,7 +311,7 @@
 %----------------------------------------------------------------------------------------
 %   KEY PROJECTS & PRESENTATIONS
 %----------------------------------------------------------------------------------------
-\vspace{0.5em plus 0.3em minus 0.2em}
+% \vspace{0.5em plus 0.3em minus 0.2em}
 
 
 
@@ -328,7 +323,7 @@
         \resumeItemListStart
             \resumeItem{Authored a production-level technical design for a proof-of-concept spam classifier, demonstrating a pragmatic approach to building new features within legacy ecosystems.
                 \begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
-                    \item[] \href{https://www.isaacbernat.com/cv#system-design}{\textit{\small \faArrowCircleRight\ Link: Full Design Document}}
+                    \item[] \href{https://www.isaacbernat.com/cv\#system-design}{\textit{\small \faArrowCircleRight\ Link: Full Design Document}}
                 \end{itemize}
             }
         \resumeItemListEnd
@@ -359,7 +354,7 @@
 %----------------------------------------------------------------------------------------
 %   SKILLS
 %----------------------------------------------------------------------------------------
-\vspace{0.5em plus 0.3em minus 0.2em}
+% \vspace{0.5em plus 0.3em minus 0.2em}
 
 \section{Core Competencies}
 \begin{itemize}[leftmargin=0.05in, label={}]
@@ -375,7 +370,7 @@
 %----------------------------------------------------------------------------------------
 %   EDUCATION & LANGUAGES
 %----------------------------------------------------------------------------------------
-\vspace{0.5em plus 0.3em minus 0.2em}
+% \vspace{0.5em plus 0.3em minus 0.2em}
 
 
 \section{Education \& Languages}
@@ -398,6 +393,5 @@
         \resumeItemListEnd
 \resumeSubHeadingListEnd
 
-\vspace*{1.5em} 
 
 \end{document}
