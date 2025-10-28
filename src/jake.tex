@@ -181,7 +181,7 @@
 \vspace{0.2em} % Slightly reduced top margin
 \begin{center}
     \begin{minipage}{0.85\textwidth} % Slightly wider container
-        \small \textit{Staff Software Engineer with 12+ years of experience in backend systems, architecture and product strategy. A proven leader of high-impact initiatives, delivering a \textbf{+3\% global Gross Margin lift} and architecting the core subscription platform that secured a \textbf{Series C funding round}.}
+        \small \textit{Staff Software Engineer with 12+ years of experience in backend systems, architecture and product strategy. A proven leader of high-impact initiatives, delivering a \textbf{+3\% global Gross Margin lift} and architecting the core subscription platform that secured a \textbf{Series C funding round}.}        
     \end{minipage}
 \end{center}
 \vspace{-0.7em} % Slightly more negative bottom margin
@@ -213,18 +213,19 @@
                     \item[] \href{https://www.isaacbernat.com/cv#casestudy-postpone-billing}{\textit{\small \faArrowCircleRight\ Case Study: Strategy \& Data-Driven Decision Making}}
                     \end{itemize}
                 \item Acted as a strategic technical advisor, identifying critical risks in a major initiative and advocating for a phased approach that mitigated over \textbf{10,000 hours} in potential wasted development.
-                \item Exhibited cross-domain ownership by proactively identifying and leading the mitigation of critical production bugs, including a promotions flaw costing \textbf{\$21,000/week} and a runaway Celery task executing over \textbf{1M times/hour}.
-    
+                \item Proactively identified and mitigated critical financial exploits, including an automated abuse vector that leveraged payment processing thresholds. Designed and implemented a rate-limiting solution that eliminated the vulnerability while preserving legitimate user functionality.
+
                 % RESUME ITEM HAS SMALLER FONT!!
                 % \resumeItem{Exhibited cross-domain ownership by proactively identifying and leading the mitigation of critical production bugs, including a promotions flaw costing \textbf{\$21,000/week} and a runaway Celery task executing over \textbf{1M times/hour}.}
             \end{itemize}
         
         \item \textbf{Senior Backend Engineer} \hfill \textit{Mar 2020 – Jun 2022}
             \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
-                \item Served as the founding backend architect for the Subscription MVP, leading the technical transition to a recurring revenue system. This work was instrumental in securing a \textbf{Series C funding round}, delivering a \textbf{+41\% YoY increase in LTV} and improving the \textbf{LTV-to-CAC ratio from 1.4x to 3.0x}.
+                \item Served as the founding backend architect for the Subscription MVP, designed the core services and orchestrated the cross-team integrations (Payments, CRM, Data, Customer Success) required for a new recurring revenue system. This foundational work delivered a \textbf{+41\% YoY increase in LTV}, improved the \textbf{LTV-to-CAC ratio from 1.4x to 3.0x} and was instrumental in securing a \textbf{Series C funding round}.
                     \begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
                     \item[] \href{https://www.isaacbernat.com/cv#casestudy-subscription-model}{\textit{\small \faArrowCircleRight\ Case Study: MVP Architecture & Product Strategy}}
-                    \end{itemize}                    
+                    \end{itemize}    
+                    
                 \item Commanded 15+ production incidents and used the post-mortem from a critical SEV-2 to establish a mandatory, company-wide policy on pre-launch monitoring and observability.
                     \begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
                     \item[] \href{https://www.isaacbernat.com/cv#casestudy-incident-74}{\textit{\small \faArrowCircleRight\ Case Study: Incident Retrospective \& Key Learnings}}
@@ -271,7 +272,6 @@
 \end{itemize}
 
 
-
 % --- Wrapp ---
 \vspace{0.5em}
 \noindent
@@ -280,18 +280,18 @@
 \end{tabular*}
 \begin{itemize}[leftmargin=*, topsep=4pt, partopsep=0pt, itemsep=8pt, parsep=0pt]
     \item \textbf{Tech Lead} \hfill \textit{Sep 2014 – Jun 2016}
-        \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
-            \item As a technical leader for the company's "2.0" pivot, guided the architectural transition from a monolith to a distributed system of \textbf{50+ microservices} in Go and Python.
-            \item Owned and maintained two of the most critical backend services: `users` (Python) and `offers` (Go). As maintainer of the `offers` service, I was responsible for code quality and architectural consistency across \textbf{1,200+ commits} from 12 contributors.
-            \item Architected and built "Opsweb", a mission-critical internal deployment system for managing canary releases, directly improving developer experience and stability.
-        \end{itemize}
-    
+    \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
+        \item As a technical leader for the company's "2.0" pivot, guided the architectural transition from a monolith to a distributed system of \textbf{50+ microservices} in Go and Python.
+        \item Owned two of the most critical backend services: `users` (Python) and `offers` (Go). As maintainer of the `offers` service, I was responsible for code quality and architectural consistency across \textbf{1,200+ commits} from 12 contributors. This service ensured credit card transactions mapped to merchant offers.
+        \item Architected and built "Opsweb," a mission-critical internal deployment system for managing canary releases, directly improving developer experience and stability.
+    \end{itemize}
     \item \textbf{Early Engineer (Backend, Data, Frontend)} \hfill \textit{Oct 2012 – Sep 2014}
-        \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
-            \item Engineered foundational data systems, including the company's first content recommendation engine and a high-volume ETL pipeline for our Redshift data warehouse.
-            \item Selected to speak at the inaugural \textbf{PyCon Sweden} on building developer tooling, demonstrating an early passion for improving the developer lifecycle.
-            \item Collaborated effectively in an asynchronous environment with teams in Stockholm and San Francisco.
-        \end{itemize}
+    \begin{itemize}
+        \item Developed and maintained a heuristic-based fraud prevention system to detect and block abuse of the platform’s gift card and coupon features, protecting against financial loss from fake user profiles.
+        \item Engineered foundational data systems, including the company's first content recommendation engine and a high-volume ETL pipeline for our Redshift data warehouse.
+        \item Collaborated effectively in an asynchronous, multi-time-zone environment with teams in Stockholm and San Francisco.
+        \item Selected to speak at the inaugural \textbf{PyCon Sweden} on building developer tooling.
+    \end{itemize}
 \end{itemize}
 
 % --- FXstreet.com ---
@@ -312,8 +312,6 @@
 %   KEY PROJECTS & PRESENTATIONS
 %----------------------------------------------------------------------------------------
 % \vspace{0.5em plus 0.3em minus 0.2em}
-
-
 
 
 \section{Key Projects \& Presentations}
@@ -361,7 +359,7 @@
     \small{\item{
         \textbf{Programming Languages:}{ \hfill Python (Expert), Go, SQL, JavaScript, C++} \\
         \textbf{Platforms \& Databases:}{ \hfill AWS, PostgreSQL, Docker, Git, MySQL, Redshift} \\
-        \textbf{Architecture \& Systems:}{ \hfill System Design, Backend Development, REST APIs, GraphQL, Performance Optimization} \\
+        \textbf{Architecture \& Design:}{ \hfill Distributed Systems, APIs (GraphQL, REST), Performance Optimization} \\
         \textbf{Practices \& Methodologies:}{ \hfill A/B Testing, TDD, Product Strategy, Incident Management, AI-Assisted Development} \\
     }}
 \end{itemize}
