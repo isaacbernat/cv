@@ -1,24 +1,21 @@
 name: Update CV in Homepage
 
-# This triggers the action when a push to the master branch modifies cv.pdf
 on:
   push:
     branches:
       - master
     paths:
-      - 'cv.pdf' # Adjust this path if your cv.pdf is in a subfolder
+      - 'cv.pdf'
 
 jobs:
   update-homepage:
     runs-on: ubuntu-latest
     steps:
-      # Step 1: Check out the CV repository to access the new cv.pdf
       - name: Checkout CV repo
         uses: actions/checkout@v4
         with:
           path: cv-repo
 
-      # Step 2: Check out the Homepage repository using the secret token
       - name: Checkout Homepage repo
         uses: actions/checkout@v4
         with:
@@ -27,7 +24,6 @@ jobs:
           path: homepage-repo
           ref: main
 
-      # Step 3: Copy the new cv.pdf over to the homepage repository
       - name: Copy new CV to Homepage
         run: |
           # Copy to the first location
@@ -36,14 +32,13 @@ jobs:
           # Copy to the second location (Note: kept .pdf.pdf as requested, change if it was a typo)
           cp cv-repo/cv.pdf homepage-repo/src/assets/Isaac_Bernat_CV.pdf
 
-      # Step 4: Commit and Push the changes to the homepage repository
       - name: Commit and Push changes
         run: |
           cd homepage-repo
           
           # Set up git bot user
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
           
           # Add the modified files
           git add src/assets/cv.pdf src/assets/Isaac_Bernat_CV.pdf
