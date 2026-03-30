@@ -26,10 +26,7 @@ jobs:
 
       - name: Copy new CV to Homepage
         run: |
-          # Copy to the first location
           cp cv-repo/cv.pdf homepage-repo/src/assets/cv.pdf
-          
-          # Copy to the second location (Note: kept .pdf.pdf as requested, change if it was a typo)
           cp cv-repo/cv.pdf homepage-repo/src/assets/Isaac_Bernat_CV.pdf
 
       - name: Commit and Push changes
@@ -48,6 +45,6 @@ jobs:
             echo "No changes to commit. The PDFs are identical."
             exit 0
           else
-            git commit -m "chore(cv): automatically update to the latest cv.pdf file from cv repo"
+            git commit -m "chore(cv): automatically update cv pdf files from cv repo"
             git push origin main
           fi
