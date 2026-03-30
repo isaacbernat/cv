@@ -1,0 +1,50 @@
+name: Update CV in Homepage
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'cv.pdf'
+
+jobs:
+  update-homepage:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout CV repo
+        uses: actions/checkout@v4
+        with:
+          path: cv-repo
+
+      - name: Checkout Homepage repo
+        uses: actions/checkout@v4
+        with:
+          repository: isaacbernat/homepage
+          token: ${{ secrets.HOMEPAGE_DEPLOY_TOKEN }}
+          path: homepage-repo
+          ref: main
+
+      - name: Copy new CV to Homepage
+        run: |
+          cp cv-repo/cv.pdf homepage-repo/src/assets/cv.pdf
+          cp cv-repo/cv.pdf homepage-repo/src/assets/Isaac_Bernat_CV.pdf
+
+      - name: Commit and Push changes
+        run: |
+          cd homepage-repo
+          
+          # Set up git bot user
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          
+          # Add the modified files
+          git add src/assets/cv.pdf src/assets/Isaac_Bernat_CV.pdf
+          
+          # Check if there are actually changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit. The PDFs are identical."
+            exit 0
+          else
+            git commit -m "chore(cv): automatically update cv pdf files from cv repo"
+            git push origin main
+          fi
