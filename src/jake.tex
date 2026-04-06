@@ -170,8 +170,8 @@
 
 \vspace{-0.2em} % Slightly reduced top margin
 \begin{center}
-    \begin{minipage}{0.85\textwidth} % Slightly wider container
-        \small \textit{Staff Software Engineer with 12+ years of experience in backend systems and product strategy. A proven leader of high-impact initiatives, including architecting a core subscription platform instrumental in a \textbf{Series C funding round} and delivering a \textbf{+3\% global Gross Margin lift} on a separate monetization project.}
+    \begin{minipage}{0.85\textwidth}
+        \small \textit{Staff Software Engineer with 12+ years of experience building resilient backend systems and driving technical product strategy. Proven leader of cross-functional, high-impact initiatives. Combining sharp business sense with deep expertise in Python and distributed systems, architected core subscription platforms instrumental in a \textbf{Series C funding round} and engineered monetization pipelines to deliver \textbf{+3\% global Gross Margin lift}.}
     \end{minipage}
 \end{center}
 \vspace{-1.1em} % Slightly more negative bottom margin
@@ -184,25 +184,24 @@
 
 
 
-\item % Independent Sabbatical
-    \textbf{Independent Professional Development (AI \& Polyglot Engineering)} \hfill \textit{Aug 2024 – Present} \\
+\item
+    \textbf{Independent Builder / Career Sabbatical} \hfill \textit{Aug 2024 – Present} \\
     \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=2pt]
-        \item Architected a production-grade data pipeline using a custom \textbf{Python} orchestrator to manage resilient LLM ingestion. Features robust concurrency control, with rate limiting and exponential backoff (\texttt{tenacity}, \texttt{asyncio}) with strict data validation (\texttt{pydantic}) to handle stochastic AI outputs.
+        \item Architected a production-grade data pipeline using a custom \textbf{Python} orchestrator for resilient LLM ingestion. Implemented robust concurrency control, rate limiting, and exponential backoff (\texttt{tenacity}, \texttt{asyncio}) with strict data validation (\texttt{pydantic}).
                                 \vspace{-1.7em}
             \begin{flushright}
         \href{https://github.com/isaacbernat/basepaint}{\textit{\small \faGithub\ Link: Project Repository}}
             \end{flushright}
                                                     \vspace{-0.7em}
 
-        \item Developed a 50 FPS real-time multiplayer game for the Playdate console in \textbf{Lua}, demonstrating the ability to rapidly master new paradigms, languages and SDKs to a shipping standard (under Catalog review).
 
-        \item Adopted the \textbf{agentic workflow}, locally hosting a distilled Qwen3.5 model via Orbstack containers to ensure zero-data-leakage and to accelerate test generation for Open Source repositories.
-        
-        \item Engineered a custom CI/CD pipeline in \textbf{Node.js} for a high-performance web, integrating automated accessibility testing, asset optimization and build processes via \textbf{GitHub Actions}.
-                    
+        \item Engineered a unique 50 FPS real-time asymmetric multiplayer game in \textbf{Lua} for the Playdate console, featuring a particle system with object pooling (300+ independently moving particles with zero Garbage Collector churn), variable-length motion trails, for highly constrained hardware architectures.
+
+        \item Modernized the CI/CD pipeline of a popular open-source tool (\textbf{\faStar\ 850+ GitHub Stars}) using an agentic workflow. Hosted distilled LLMs (Qwen3.5) locally via Orbstack containers to ensure a secure zero-data- leakage environment to generate multi-language (\textbf{\texttt{unittest}} \& \textbf{\texttt{node:test}}) suites.
+      
                                 \vspace{-1.7em}
             \begin{flushright}
-        \href{https://github.com/isaacbernat/homepage}{\textit{\small \faGithub\ Link: Project Repository}}
+        \href{https://github.com/isaacbernat/netflix-to-srt}{\textit{\small \faGithub\ Link: Project Repository}}
             \end{flushright}
 
     \end{itemize}
@@ -216,33 +215,49 @@
 \end{tabular*}
 
 \begin{itemize}[leftmargin=*, topsep=4pt, partopsep=0pt, itemsep=8pt, parsep=0pt] % Roles within Preply
-    \item \textbf{Staff Backend Engineer} \hfill \textit{Jun 2022 – Jul 2024}
-        \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
-                \item Drove the company's \#1 most impactful initiative of 2023 (out of 215 A/B tests), delivering a \textbf{+3\% global Gross Margin lift} by overhauling subscription cancellation and pause policies.
-                \begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
-                    \item[] \href{https://www.isaacbernat.com/cv#casestudy-postpone-billing}{\textit{\small \faArrowCircleRight\ Case Study: Strategy \& Data-Driven Decision Making}}
-                    \end{itemize}
-                \item Acted as a strategic technical advisor, identifying critical risks in a major initiative and advocating for a phased approach that mitigated over \textbf{10,000 hours} in potential wasted development.
-                \item Proactively identified and mitigated critical financial exploits, including an automated abuse vector that leveraged payment processing thresholds. Designed and implemented a rate-limiting solution that eliminated the vulnerability while preserving legitimate user functionality.
+\item \textbf{Staff Backend Engineer} \hfill \textit{Jun 2022 – Jul 2024}
+    \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
+        \item Led the company's \#1 most impactful A/B test of 2023 (of 215), driving a \textbf{+3\% global Gross Margin lift}. Redesigned the core subscription monetization logic, engineering an idempotent, cron-driven state machine with strict database-level locking to guarantee zero double-billing.
+        % \begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+        %             \item[] \href{https://www.isaacbernat.com/cv#casestudy-postpone-billing}{\textit{\small \faArrowCircleRight\ Case Study: Data-Driven Decision Making}}
+        %             \end{itemize}
 
-                \item Championed and improved engineering best practices, including advocating for enhanced observability and establishing a new, mandatory pre-launch monitoring policy that was adopted company-wide.
+                    \vspace{-1.7em}
+                    \begin{flushright}
+                    \href{https://www.isaacbernat.com/cv#casestudy-postpone-billing}{\textit{\small \faArrowCircleRight\ Case Study: Data-Driven Decision Making}}
+                    \end{flushright}
 
-                % RESUME ITEM HAS SMALLER FONT!!
-                % \resumeItem{Exhibited cross-domain ownership by proactively identifying and leading the mitigation of critical production bugs, including a promotions flaw costing \textbf{\$21,000/week} and a runaway Celery task executing over \textbf{1M times/hour}.}
-            \end{itemize}
+        \item Engineered a pragmatic rate-limiting circuit breaker to neutralize an automated transaction-fee arbitrage exploit (Stripe/Braintree), and traced/mitigated a runaway Celery task executed over \textbf{1M times/hour}.
+
+        \item Championed an engineering-wide CI/CD optimization initiative. Identified a Jenkins queue bottleneck, drove an on-demand testing workflow for Draft PRs to reduce AWS EC2 infrastructure costs by \textbf{\$31k/year}, saving hundreds of monthly engineer hours.
+                    \vspace{-1.7em}
+                    \begin{flushright}
+                    \href{https://www.isaacbernat.com/cv#casestudy-ci-savings}{\textit{\small \faArrowCircleRight\ Case Study: Reduction of 80\% on Automated Testing Costs}}
+                    \end{flushright}
+        
+        \item Acted as technical DRI for cross-functional initiatives. Prevented an estimated \textbf{10,000+ hours} of wasted engineering by advocating against a high-risk launch, successfully pivoting to a phased rollout strategy.
+    \end{itemize}
         
         \item \textbf{Senior Backend Engineer} \hfill \textit{Mar 2020 – Jun 2022}
             \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
-                \item Served as the founding backend architect for the Subscription MVP, designed the core services and orchestrated the cross-team integrations (Payments, CRM, Data, Customer Success) required for a new recurring revenue system. This foundational work delivered a \textbf{+41\% YoY increase in LTV}, improved the \textbf{LTV-to-CAC ratio from 1.4x to 3.0x} and was instrumental in securing a \textbf{Series C funding round}.
-                    \begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
-                    \item[] \href{https://www.isaacbernat.com/cv#casestudy-subscription-model}{\textit{\small \faArrowCircleRight\ Case Study: MVP Architecture & Product Strategy}}
-                    \end{itemize}    
-                    
-                \item Commanded 15+ production incidents and used the post-mortem from a critical SEV-2 to establish a mandatory, company-wide policy on pre-launch monitoring and observability.
-                    \begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
-                    \item[] \href{https://www.isaacbernat.com/cv#casestudy-incident-74}{\textit{\small \faArrowCircleRight\ Case Study: Incident Retrospective \& Key Learnings}}
-                    \end{itemize}
-                \item Led the backend migration of a high-traffic (1M+ MAU) application to a GraphQL API, improving page load times by \textbf{\textgreater85\%} and unblocking A/B tests that resulted in an \textbf{+800\% CVR increase}.
+                \item Served as the founding backend architect for the Subscription MVP. Designed the core schema and cross- team integrations (Payments, CRM) that scaled to \textbf{200k+ monthly renewals}, increased LTV-to-CAC from 1.4x to 3.0x, and enabled a \textbf{Series C funding round}.
+                    % \begin{itemize}[leftmargin=1.5em, topsep=0pt, itemsep=0pt, partopsep=0pt, parsep=0pt]
+                 %    \item[] \href{https://www.isaacbernat.com/cv#casestudy-subscription-model}{\textit{\small \faArrowCircleRight\ Case Study: MVP Architecture & Product Strategy}}
+                 %    \end{itemize}    
+
+                    \vspace{-1.7em}
+                    \begin{flushright}
+                    \href{https://www.isaacbernat.com/cv#casestudy-subscription-model}{\textit{\small \faArrowCircleRight\ Case Study: MVP Architecture & Product Strategy}}
+                    \end{flushright}
+
+                \item Commanded 15+ production incidents. Leveraged a critical SEV-2 post-mortem to champion a mandatory, company-wide pre-launch observability policy, shifting the engineering culture towards monitoring-first deployments.
+
+                    \vspace{-1.7em}
+                    \begin{flushright}
+                    \href{https://www.isaacbernat.com/cv#casestudy-incident-74}{\textit{\small \faArrowCircleRight\ Case Study: Incident Retrospective \& Key Learnings}}
+                    \end{flushright}
+
+                \item Led the backend migration of a high-traffic (1M+ MAU) legacy Django application to a GraphQL API, resolving database bottlenecks to reduce page load time by\textbf{ \textgreater 85\%} and unblocking experiments that drove a \textbf{+300\% CVR increase}.
             \end{itemize}
     \end{itemize}
 
@@ -278,11 +293,11 @@
     \textbf{\Large Productos Aditivos} & \textbf{Montcada, Spain} \\
 \end{tabular*}
 \begin{itemize}[leftmargin=*, topsep=4pt, partopsep=0pt, itemsep=2pt, parsep=0pt]
-    \item \textbf{CTO \& CFO} \hfill \textit{Jun 2016 – Jan 2018}
-        \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
-            \item Drove technology modernization and financial optimization, securing over \textbf{64,000 EUR in savings}.
-            % \item Oversaw a critical ERP migration and the company-wide transition to the Spanish SII tax reporting system.
-        \end{itemize}
+\item \textbf{Technical Operations Lead} \hfill \textit{Jun 2016 – Jan 2018}
+    \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
+        \item Engineered a custom market intelligence data pipeline, aggregating and analyzing international customs data to deliver strategic supply-chain forecasting on competitor volumes and pricing.
+        \item Managed the technical vendor relationship for a highly constrained legacy ERP system, overseeing the mandatory transition to the Spanish SII real-time tax reporting API to ensure regulatory compliance.
+    \end{itemize}
 \end{itemize}
 
 
@@ -295,12 +310,13 @@
 \begin{itemize}[leftmargin=*, topsep=4pt, partopsep=0pt, itemsep=8pt, parsep=0pt]
     \item \textbf{Tech Lead} \hfill \textit{Sep 2014 – Jun 2016}
     \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
-        \item As a technical leader for the company's "2.0" pivot, guided the transition from a monolith to a distributed system of \textbf{50+ microservices}, owning `users` (Python) and `offers` (Go) critical backend services.
+        \item As a technical leader for the company's ``2.0'' pivot, guided the transition from a monolith to a distributed system of \textbf{50+ microservices}, owning ``users'' (Python) and ``offers'' (Go) critical backend services.
         \item Responsible for core backend APIs for mapping credit card transactions to merchant offers, the service architectural consistency and code quality across \textbf{1,200+ commits} from 12 contributors.        
-        \item Designed and built "Opsweb" from the ground up, a mission-critical internal deployment and CI/CD platform for managing canary releases of our 50+ microservices, directly improving developer velocity and site reliability.
+        \item Achitected ``Opsweb'' from the ground up, a mission-critical internal deployment and CI/CD platform to manage canary releases of 50+ microservices. This lead to improved developer velocity and site reliability.
     \end{itemize}
+
     \item \textbf{Early Engineer (Backend, Data, Frontend)} \hfill \textit{Oct 2012 – Sep 2014}
-    \begin{itemize}
+        \begin{itemize}[leftmargin=1.5em, topsep=2pt, itemsep=4pt]
         \item Developed and maintained a heuristic-based fraud prevention system to detect and block abuse of the platform’s gift card and coupon features, protecting against financial loss from fake user profiles.
         \item Engineered foundational data systems, including the company's first content recommendation engine and a high-volume ETL pipeline for our Redshift data warehouse.
         \item Collaborated effectively in an asynchronous environments with teams in Stockholm and San Francisco.
@@ -328,6 +344,7 @@
 
 
 \section{Key Projects \& Presentations}
+\vspace{-0.3em}
 \resumeSubHeadingListStart
     \resumeProjectHeading
         {\textbf{System Design: Heuristic-based Web Spam Classifier}}{}
@@ -337,7 +354,7 @@
             \begin{flushright}
             \href{https://www.isaacbernat.com/cv\#system-design}{\textit{\small \faArrowCircleRight\ Link: Full Design Document}}
             \end{flushright}
-        \vspace{-1.2em}
+        \vspace{-1.7em}
             }
         \resumeItemListEnd
 \vspace{-1.0em}
@@ -347,42 +364,40 @@
 \resumeProjectHeading
     {\textbf{PyCon Sweden 2019: Deep Dive on Python Performance}}{}
     \resumeItemListStart
-        \resumeItem{Presented iterative code optimizations. Demonstrated how to diagnose, analyze and solve bottlenecks with CPython bytecode, profilers and low-level system tooling. Showcased techniques achieving {\boldmath\textbf{$>10^{18}$x speedup improvements}}.
-        \vspace{-1.5em}
+        \resumeItem{Talk on CPython bytecode and algorithmic optimization. Reductions from $O(n^3)$ bottlenecks to $O(1)$ through profilers, memoization, search-space reduction... to achieve exponential runtime speedups.}
+        \vspace{-2.8em}
             \begin{flushright}
                 \hfill \item[] \href{https://youtu.be/asZ0SDTKqvM}{\textit{\small \faYoutube\ Link: Full Talk on YouTube}}
             \end{flushright}
-        \vspace{-1.2em}
-        }
+        \vspace{-0.7em}
     \resumeItemListEnd
 \vspace{-1.0em}
 
-\vspace{-0.7em}
+\vspace{-0.5em}
 
 \resumeProjectHeading
     {\textbf{PyCon Sweden 2014: Building Developer Tooling}}{}
     \resumeItemListStart
-        \resumeItem{Selected to speak at the inaugural PyCon Sweden, presenting a talk on architecting and building `pycrastinate`, a language-agnostic tool for managing technical debt in large codebases using Git.
+        \resumeItem{Selected to speak at the inaugural PyCon Sweden, presenting a talk on architecting and building `pycrastinate', a language-agnostic tool for managing technical debt in large codebases using Git.
         
                 \vspace{-1.5em}
             \begin{flushright}
         \href{https://github.com/isaacbernat/pycrastinate}{\textit{\small \faGithub\ Link: Project Repository}}
             \end{flushright}
-        \vspace{-1.2em}
+        \vspace{-1.7em}
         }
     \resumeItemListEnd
 \vspace{-1.0em}
 
-
     \resumeProjectHeading
         {\textbf{Open Source: netflix-to-srt}}{}
         \resumeItemListStart
-            \resumeItem{Creator and maintainer of an open-source tool with \textbf{\faStar\ 800+ on GitHub}. Solves a common community need for converting subtitle formats with emphasis on simplicity, portability and zero-dependencies.
+            \resumeItem{Creator and sole maintainer of a (\textbf{\faStar\ 850+ GitHub Stars}) open-source media tool. Solves complex subtitle parsing constraints with a strict zero-dependency philosophy. Modernized via Agentic AI.
                     \vspace{-1.5em}
             \begin{flushright}
  \hfill \href{https://github.com/isaacbernat/netflix-to-srt/}{\textit{\small \faGithub\ Link: Project Repository}}
             \end{flushright}
-        \vspace{-1.2em}
+        \vspace{-1.7em}
             }
         \resumeItemListEnd
 \resumeSubHeadingListEnd
@@ -392,14 +407,14 @@
 %----------------------------------------------------------------------------------------
 % \vspace{0.5em plus 0.3em minus 0.2em}
 
-\vspace{-0.7em}
+\vspace{0.5em}
 
 \section{Core Competencies}
 \begin{itemize}[leftmargin=0.05in, label={}]
     \small{\item{
-        \textbf{Programming Languages:}{ \hfill Python (Expert), Go, SQL, JavaScript, C++, Lua, Dart} \\
-        \textbf{Platforms \& Databases:}{ \hfill AWS, PostgreSQL, Docker, Git, MySQL, Redshift, CI/CD (Jenkins, GitHub Actions)} \\
-        \textbf{Architecture \& Design:}{ \hfill Distributed Systems, APIs (GraphQL, REST), AI-Assisted Development, Data Pipelines} \\
+        \textbf{Programming Languages:}{ \hfill Python (Expert), Go, SQL, JavaScript, Lua} \\
+        \textbf{Platforms \& Databases:}{ \hfill AWS, PostgreSQL, Docker, Git, CI/CD (GitHub Actions)} \\
+        \textbf{Architecture \& Design:}{ \hfill Distributed Systems, APIs (GraphQL, REST), Agentic AI-Assisted Development, Data Pipelines} \\
         \textbf{Practices \& Methodologies:}{ \hfill A/B Testing, TDD, Product Strategy, Incident Management, Cross-Functional Leadership} \\
     }}
 \end{itemize}
@@ -407,19 +422,20 @@
 %----------------------------------------------------------------------------------------
 %   EDUCATION & LANGUAGES
 %----------------------------------------------------------------------------------------
-% \vspace{0.5em plus 0.3em minus 0.2em}
+\vspace{-0.4em}
 
 \section{Education \& Languages}
 \resumeSubHeadingListStart
     \resumeSubheadingSingleLine
         {M.Sc. in Informatics Engineering (\href{ https://europass.europa.eu/en/description-eight-eqf-levels#:~:text=Level\%207}{EQF 7}), \textbf{Highest Honours}}{2006 – 2011}
         {Universitat Politècnica de Catalunya (UPC - BarcelonaTech) \& NTNU}{Barcelona, Spain \& Trondheim, Norway}
+        \vspace{-0.5em}
         \resumeItemListStart
-            \resumeItem{Master's Thesis on Test-Driven Conceptual Modelling conducted at the Norwegian University of Science and Technology (NTNU) as part of the ERASMUS programme.}
-            \resumeItem{Awarded the highest possible grade (A with Highest Honours) from both institutions.}
+            \resumeItem{Master's Thesis on Test-Driven Conceptual Modeling conducted at NTNU as part of the ERASMUS program.}
+            \resumeItem{Awarded the highest possible grade (A with Highest Honours) by both institutions.}
         \resumeItemListEnd
 
-    \vspace{0.5em}
+    \vspace{0.1em}
     \resumeSubheadingSingleLine
         {Languages}{}
         {}{}
